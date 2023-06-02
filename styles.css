@@ -1651,7 +1651,8 @@ header {
 }
 @media (min-width: 320px) and (max-width: 540px) {
   .container-card1 {
-    margin: auto;
+    margin: 20px 20px 20px 20px;
+    width: 80%;
   }
 }
 @media (min-width: 541px) and (max-width: 912px) {

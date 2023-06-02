@@ -26,7 +26,8 @@
         margin: auto;
     } 
     @media(min-width: 320px) and (max-width: 540px){
-        margin: auto;
+        margin: 20px 20px 20px 20px;
+        width: 80%;
     }
     @media(min-width: 541px) and (max-width: 912px){
         margin: 450px 0 60px 160px;
