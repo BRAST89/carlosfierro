@@ -1646,13 +1646,15 @@ header {
 
 @media (max-width: 319px) {
   .container-card1 {
-    margin: auto;
+    margin: 20px 20px 20px 20px;
+    width: 80%;
   }
 }
 @media (min-width: 320px) and (max-width: 540px) {
   .container-card1 {
     margin: 20px 20px 20px 20px;
     width: 80%;
+    height: 80%;
   }
 }
 @media (min-width: 541px) and (max-width: 912px) {
@@ -1725,7 +1727,7 @@ header {
 @media (max-width: 319px) {
   .card {
     width: 100%;
-    margin: 20px;
+    margin: auto;
     border-radius: 6px;
     overflow: hidden;
     background: linear-gradient(to top, rgba(31, 30, 30, 0.8), rgb(20, 20, 20));
@@ -1737,7 +1739,7 @@ header {
 @media (min-width: 320px) and (max-width: 414px) {
   .card {
     width: 100%;
-    margin: 20px;
+    margin: auto;
     border-radius: 6px;
     overflow: hidden;
     background: linear-gradient(to top, rgba(31, 30, 30, 0.8), rgb(20, 20, 20));
