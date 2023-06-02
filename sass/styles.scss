@@ -1,0 +1,25 @@
+@use 'containerImage';
+@use 'header';
+@use 'redes';
+@use 'container';
+@use 'navbar';
+@use 'variables';
+@use 'footer';
+@use 'mixins';
+@use 'formulariolibro';
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.inicio{
+    background-color: rgb(8, 8, 8);
+}
+
+.body{
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}

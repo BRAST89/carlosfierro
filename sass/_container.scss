@@ -1,0 +1,120 @@
+@use 'mixins';
+.container{
+    &__inicio{
+         @include mixins.containerinicio;
+    }
+
+    &__obrasModal{   
+        @include mixins.containerinicio;
+    }
+
+    &__libroModal{
+
+        @include mixins.containerlibro;   
+    }
+    &__libroModalcomentarios{
+        @include mixins.containerlibro;
+ 
+    }
+    &__galeriaMobile{
+        @include mixins.containerinicio;
+    }
+    &__expositionModal{
+        @include mixins.containerinicio;
+    }
+    &__contratarModal{
+        @include mixins.containercontactar;
+        
+    }
+    &__contratarModal1{
+        @media(max-width: 550px){
+            @include mixins.containercontactar;
+        }   
+    }
+
+    &__biografiaModal{
+        @include mixins.mobilebiografia;
+    }
+
+    &__articuloModal{
+        @include mixins.containerinicio;
+    }
+
+    &__esculturasModal{
+        @include mixins.containerinicio;
+    }
+
+    &__grabadosModal{
+        @include mixins.containerinicio;
+    }
+
+    &__trofeosModal{
+        @include mixins.containerinicio;
+    }
+
+}  
+
+.subcontainer__inicio{
+        @media(max-width: 319px){
+        //border: 1px solid red;
+        //display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 90%;
+        height: 55vh;
+        right: -16px;
+        top: 35px;
+        background-color: rgb(102, 81, 10);
+        }
+        @media(min-width: 320px) and (max-width: 414px) and (min-height: 320px) {
+            //border: 1px solid red;
+            //display: flex;
+            justify-content: space-between;
+            position: relative;
+            width: 80%;
+            height: 55vh;
+            right: -42px;
+            top: 35px;
+            background-color: rgb(102, 81, 10);
+        }
+        @media(min-width: 415px) and (max-width: 912px){
+            //border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            width: 80%;
+            height: 60vh;
+            right: -10px;
+            top: 20px;
+            background-color: rgb(102, 81, 10);
+        }
+        @media(min-width: 913px) and (max-width: 1204px){
+            //border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            width: 45%;
+            right: -300px;
+            height: 75vh;
+            top: 20px;
+            background-color: rgb(102, 81, 10);
+        }
+        @media(min-width: 1205px){
+            //border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            width: 45%;
+            right: -370px;
+            height: 75vh;
+            top: 20px;
+            background-color: rgb(102, 81, 10);
+        }
+}
+    
+
+    
+        
+    
+    
+

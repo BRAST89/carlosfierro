@@ -1,0 +1,211 @@
+form{
+    @media(max-width: 319px){
+        margin: 40px 0 0 30px;
+        width: 80%;
+    } 
+    @media(min-width: 320px) and (max-width: 414px){
+        margin: 40px 0 0 30px;
+        border: 1px solid red;
+        width: 85%;
+    }
+    @media(min-width: 415px) and (max-width: 912px){
+        margin: 40px 0 0 30px;
+        border: 1px solid red;
+        width: 70%;
+    }
+    
+    @media(min-width: 913px) and (max-width: 1204px){
+        margin: 40px 0 0 30px;
+        border: 1px solid red;
+        width: 40%;
+    }
+    @media(min-width: 1205px){
+        margin: 40px 0 0 30px;
+        border: 1px solid red;
+        width: 40%;
+   
+    }
+    
+}
+
+form label, form legend{
+    @media(max-width: 319px){
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px 30px;
+        color: antiquewhite;
+    } 
+    @media(min-width: 320px) and (max-width: 414px){
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px 30px;
+        color: antiquewhite;
+    }
+    @media(min-width: 415px) and (max-width: 912px){
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px 30px;
+        color: antiquewhite;
+    }
+    
+    @media(min-width: 913px) and (max-width: 1204px){
+        display: block;
+        font-size: 15px;
+        margin: 0 0 10px 30px;
+        color: antiquewhite;
+    }
+    @media(min-width: 1205px){
+        display: block;
+        font-size: 15px;
+        margin: 0 0 10px 30px;
+        color: antiquewhite;
+    }
+}
+
+.input-padron, .input-padronL{
+    @media(max-width: 319px){
+        display: block;
+        margin: 0 0 10px 30px;
+        padding: 5px 5px;
+        width: 80%;
+    } 
+    @media(min-width: 320px) and (max-width: 414px){
+        display: block;
+        margin: 0 0 10px 30px;
+        padding: 5px 5px;
+        width: 80%;
+    }
+    @media(min-width: 415px) and (max-width: 912px){
+        display: block;
+        margin: 0 0 10px 30px;
+        padding: 5px 5px;
+        width: 80%;
+    }
+    
+    @media(min-width: 913px) and (max-width: 1204px){
+        display: block;
+        margin: 0 0 10px 30px;
+        padding: 2px 2px;
+        width: 60%;
+    }
+    @media(min-width: 1205px){
+        display: block;
+        margin: 0 0 10px 30px;
+        padding: 2px;
+        width: 60%;
+    }
+}
+
+.enviar, .enviarL{
+    @media(max-width: 319px){    
+        width: 80%;
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color:rgb(14, 14, 13);
+        background: rgba(145, 141, 47, 0.884);
+        border:none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor:pointer;
+        margin: 10px 0 30px 30px;
+    } 
+    @media(min-width: 320px) and (max-width: 414px){
+        width: 80%;
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color:rgb(14, 14, 13);
+        background: rgba(145, 141, 47, 0.884);
+        border:none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor:pointer;
+        margin: 10px 0 30px 30px;
+    }
+    @media(min-width: 415px) and (max-width: 912px){
+        width: 60%;
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color:rgb(14, 14, 13);
+        background: rgba(199, 197, 57, 0.884);
+        border:none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor:pointer;
+        margin: 10px 0 30px 50px;
+    }
+    
+    @media(min-width: 913px) and (max-width: 1204px){        
+        width: 40%;
+        padding: 15px 0;
+        font-size: 12px;
+        font-weight: bold;
+        color:rgb(14, 14, 13);
+        background: rgba(199, 197, 57, 0.884);
+        border:none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor:pointer;
+        margin: 10px 0 30px 50px;
+    }
+    @media(min-width: 1205px){        
+        width: 40%;
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color:rgb(14, 14, 13);
+        background: rgba(211, 211, 100, 0.884);
+        border:none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor:pointer;
+        margin: 10px 0 30px 85px;
+    }
+}
+
+.enviar:hover, .enviarL:hover{
+    @media(max-width: 319px){
+        background: rgb(200, 202, 86);
+        transform: scale(1.2);
+    } 
+    @media(min-width: 320px) and (max-width: 414px){
+        background: rgb(200, 202, 86);
+        transform: scale(1.2);
+    }
+    @media(min-width: 415px) and (max-width: 912px){
+        background: rgb(200, 202, 86);
+        transform: scale(1.2);
+    }
+    
+    @media(min-width: 913px) and (max-width: 1204px){
+        background: rgb(200, 202, 86);
+        transform: scale(1.2);
+    }
+    @media(min-width: 1205px){
+        background: rgb(0, 0, 0);
+        transform: scale(1.2);
+    }
+}
+
+
+.contacto{
+    
+    @media(max-width: 319px){
+        margin: auto;
+    } 
+    @media(min-width: 320px) and (max-width: 540px){
+        margin: auto;
+    }
+    @media(min-width: 541px) and (max-width: 912px){
+        margin: 450px 0 60px 160px;
+    }
+    
+    @media(min-width: 913px) and (max-width: 1204px){
+        margin: 60px 0 40px 650px;
+    }
+    @media(min-width: 1205px){
+        margin: 60px 0 40px 820px;
+    }
+}

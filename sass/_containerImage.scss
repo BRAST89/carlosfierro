@@ -1,0 +1,210 @@
+// imagenes inicio
+.imageDestokp{
+        @media(max-width: 319px){
+            display: flex;
+            justify-content: center; 
+            position: relative;
+            width: 95%;
+            height: 95%;
+            right: -6px;
+            top: 10px;
+       
+        }
+        @media(min-width: 320px) and (max-width: 414px){
+            display: flex;
+            justify-content: center; 
+            position: relative;
+            width: 94%;
+            height: 95%;
+            right: -8px;
+            top: 10px;
+           
+        }
+        @media(min-width: 415px) and (max-width: 540px){
+            display: flex;
+            justify-content: space-between; 
+            position: relative;
+            width: 95%; 
+            height: 57vh;
+            right: 0px;
+            top: 10px;
+        }
+        @media(min-width: 541px) and (max-width: 912px){
+            display: flex;
+            justify-content: space-between; 
+            position: relative;
+            width: 95%; 
+            height: 58vh;
+            right: 0px;
+            top: 10px;
+        }
+        @media(min-width: 913px) and (max-width: 1204px){
+            display: flex;
+            justify-content: space-between; 
+            width: 95%; 
+            height: 72vh;
+            position: relative;
+            right: 0px;
+            top: 10px;
+        }
+        @media(min-width: 1205px){
+            display: flex;
+            justify-content: space-between; 
+            width: 95%; 
+            height: 72vh;
+            position: relative;
+            right: 0px;
+            top: 10px;
+        }
+    }
+    
+
+
+
+
+
+
+
+
+//imagenes biografia
+
+
+.imagebio3{
+    @media(min-width: 280px){
+        display: flex;
+        justify-content: center; 
+        position: relative;
+        width: 98%;
+        height: 315px;
+        right: -5px;
+        top: 11px;
+    }
+    @media(min-width: 702px){
+        display: flex;
+        justify-content: space-between; 
+        width: 98%; 
+        height: 450px;
+        position: relative;
+        right: -5px;
+        height: 360px;
+        top: 10px;
+    }
+    @media(min-width: 1115px){
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 99%;
+    right: -8px;
+    height: 580px;
+    }
+    @media(min-width: 1225px){
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 99%;
+        right: -8px;
+        height: 580px;
+    }
+}
+.imagebio{
+    @media(min-width: 280px){
+        display: flex;
+        justify-content: center; 
+        position: relative;
+        width: 88%;
+        height: 915px;
+        right: -30px;
+        top: 11px;
+    }
+    @media(min-width: 702px){
+        display: flex;
+        justify-content: space-between; 
+        width: 98%; 
+        height: 150px;
+        position: relative;
+        right: -5px;
+        height: 1560px;
+        top: 10px;
+    }
+    @media(min-width: 1115px){
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 90%;
+    right: -8px;
+    height: 1780px;
+    }
+    @media(min-width: 1225px){
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 88%;
+        right: -75px;
+        height: 1780px;
+        
+    }
+
+}
+.imagebio4{
+    @media(min-width: 280px){
+        display: flex;
+        justify-content: center; 
+        position: relative;
+        width: 98%;
+        height: 315px;
+        right: -5px;
+        top: 11px;
+    }
+    @media(min-width: 702px){
+        display: flex;
+        justify-content: space-between; 
+        width: 98%; 
+        height: 150px;
+        position: relative;
+        right: -5px;
+        height: 360px;
+        top: 10px;
+    }
+    @media(min-width: 1115px){
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 99%;
+    right: -8px;
+    height: 580px;
+    }
+    @media(min-width: 1225px){
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 99%;
+        right: -8px;
+        height: 580px;
+        
+    }
+
+}
+
+//imagen libro de visitas
+.imagenvisitas{
+    @media(min-width: 280px){
+        margin: auto;;
+
+    }
+    @media(min-width: 702px){
+        margin: auto;
+    }
+    @media(min-width: 1115px){
+        margin: auto;
+    }
+    @media(min-width: 1225px){
+        margin: 10px 0 0 30px;
+
+       
+    }
+}
+
+
+
+
+

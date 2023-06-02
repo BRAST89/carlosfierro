@@ -1,0 +1,23 @@
+.firma{
+    /*@media (min-width: 1115px){    
+        display: none;
+    }*/
+    @media(min-width: 702px){
+        display: none;      
+    }
+    display: flex;
+    justify-content: center;
+    color: azure;
+    background-color: rgb(7, 7, 7);
+    position: relative;
+    font-size: 40px;
+    top: 10px;
+    
+    font-family: PinyonScript-Regular;
+
+}
+header{
+    //border: 1px solid white;
+    background-color: rgb(10, 10, 10);
+    
+}
