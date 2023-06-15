@@ -28,6 +28,36 @@ form{
     
 }
 
+.formularioLibro{
+    @media(max-width: 319px){
+        margin: 40px 0 0 30px;
+        width: 80%;
+    } 
+    @media(min-width: 320px) and (max-width: 414px){
+        margin: 40px 0 0 30px;
+        //border: 1px solid red;
+        width: 85%;
+    }
+    @media(min-width: 415px) and (max-width: 912px){
+        margin: 40px 0 0 30px;
+        width: 70%;
+    }
+    
+    @media(min-width: 913px) and (max-width: 1204px){
+        
+        margin: 30px 0 10px 30px;
+        width: 50%;
+    }
+    @media(min-width: 1205px){
+        margin: 30px 0 10px 30px;
+        width: 50%;
+    }
+    
+}
+
+
+
+
 form label, form legend{
     @media(max-width: 319px){
         display: block;
@@ -101,14 +131,15 @@ form label, form legend{
     }
 }
 
-.enviar, .enviarL{
+
+.enviar{
     @media(max-width: 319px){    
         width: 80%;
         padding: 15px 0;
         font-size: 18px;
         font-weight: bold;
         color:rgb(14, 14, 13);
-        background: rgba(145, 141, 47, 0.884);
+        background: rgba(116, 116, 107, 0.884);
         border:none;
         border-radius: 5px;
         transition: 1s all;
@@ -121,7 +152,7 @@ form label, form legend{
         font-size: 18px;
         font-weight: bold;
         color:rgb(14, 14, 13);
-        background: rgba(145, 141, 47, 0.884);
+        background: rgba(116, 116, 107, 0.884);
         border:none;
         border-radius: 5px;
         transition: 1s all;
@@ -134,7 +165,7 @@ form label, form legend{
         font-size: 18px;
         font-weight: bold;
         color:rgb(14, 14, 13);
-        background: rgba(199, 197, 57, 0.884);
+        background: rgba(116, 116, 107, 0.884);
         border:none;
         border-radius: 5px;
         transition: 1s all;
@@ -148,7 +179,7 @@ form label, form legend{
         font-size: 12px;
         font-weight: bold;
         color:rgb(14, 14, 13);
-        background: rgba(199, 197, 57, 0.884);
+        background: rgba(116, 116, 107, 0.884);
         border:none;
         border-radius: 5px;
         transition: 1s all;
@@ -161,7 +192,7 @@ form label, form legend{
         font-size: 18px;
         font-weight: bold;
         color:rgb(14, 14, 13);
-        background: rgba(211, 211, 100, 0.884);
+        background: rgba(116, 116, 107, 0.884);
         border:none;
         border-radius: 5px;
         transition: 1s all;
@@ -170,26 +201,120 @@ form label, form legend{
     }
 }
 
-.enviar:hover, .enviarL:hover{
+.enviarL{
+    @media(max-width: 319px){    
+        width: 80%;
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color:rgb(14, 14, 13);
+        background: rgba(34, 34, 33, 0.884);
+        border:none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor:pointer;
+        margin: 10px 0 30px 30px;
+    } 
+    @media(min-width: 320px) and (max-width: 414px){
+        width: 80%;
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color:rgb(14, 14, 13);
+        background: rgba(34, 34, 33, 0.884);
+        border:none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor:pointer;
+        margin: 10px 0 30px 30px;
+    }
+    @media(min-width: 415px) and (max-width: 912px){
+        width: 60%;
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color:rgb(14, 14, 13);
+        background: rgba(34, 34, 33, 0.884);
+        border:none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor:pointer;
+        margin: 10px 0 30px 50px;
+    }
+    
+    @media(min-width: 913px) and (max-width: 1204px){        
+        width: 40%;
+        padding: 15px 0;
+        font-size: 12px;
+        font-weight: bold;
+        color:rgb(14, 14, 13);
+        background: rgba(34, 34, 33, 0.884);
+        border:none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor:pointer;
+        margin: 10px 0 30px 50px;
+    }
+    @media(min-width: 1205px){        
+        width: 40%;
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color:rgb(14, 14, 13);
+        background: rgba(34, 34, 33, 0.884);
+        border:none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor:pointer;
+        margin: 10px 0 30px 85px;
+    }
+}
+
+
+.enviar:hover{
     @media(max-width: 319px){
-        background: rgb(200, 202, 86);
+        background: rgb(107, 107, 72);
         transform: scale(1.2);
     } 
     @media(min-width: 320px) and (max-width: 414px){
-        background: rgb(200, 202, 86);
+        background: rgb(107, 107, 72);
         transform: scale(1.2);
     }
     @media(min-width: 415px) and (max-width: 912px){
-        background: rgb(200, 202, 86);
+        background: rgb(107, 107, 72);
         transform: scale(1.2);
     }
     
     @media(min-width: 913px) and (max-width: 1204px){
-        background: rgb(200, 202, 86);
+        background: rgb(107, 107, 72);
         transform: scale(1.2);
     }
     @media(min-width: 1205px){
-        background: rgb(200, 202, 86);
+        background: rgb(107, 107, 72);
+        transform: scale(1.2);
+    }
+}
+
+.enviarL:hover{
+    @media(max-width: 319px){
+        background: rgb(86, 87, 72);
+        transform: scale(1.2);
+    } 
+    @media(min-width: 320px) and (max-width: 414px){
+        background: rgb(86, 87, 72);
+        transform: scale(1.2);
+    }
+    @media(min-width: 415px) and (max-width: 912px){
+        background: rgb(86, 87, 72);
+        transform: scale(1.2);
+    }
+    
+    @media(min-width: 913px) and (max-width: 1204px){
+        background: rgb(86, 87, 72);
+        transform: scale(1.2);
+    }
+    @media(min-width: 1205px){
+        background: rgb(86, 87, 72);
         transform: scale(1.2);
     }
 }

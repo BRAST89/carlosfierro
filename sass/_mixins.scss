@@ -150,27 +150,7 @@
 
 @mixin containerlibro{
     @media(max-width: 319px){
-        background: linear-gradient(to top, rgba(86, 88, 54, 0.8), rgb(70, 70, 52)),
-        url(./imagenes/imagen,corazonta.jpg);
-        background-size: cover;
-        width: 100%;
-        height: 100vh;
-        color: #fff;
-        display: flex;
-        align-items: center;    
-    } 
-    @media(min-width: 320px) and (max-width: 414px){
-        background: linear-gradient(to top, rgba(86, 88, 54, 0.8), rgb(70, 70, 52)),
-        url(./imagenes/imagen,corazonta.jpg);
-        background-size: cover;
-        width: 100%;
-        height: 100vh;
-        color: #fff;
-        display: flex;
-        align-items: center;    
-    }
-    @media(min-width: 415px) and (max-width: 912px){
-        background: linear-gradient(to top, rgba(86, 88, 54, 0.8), rgb(70, 70, 52)),
+        background: linear-gradient(to top, rgba(50, 51, 43, 0.8), rgb(58, 58, 53)),
         url(./imagenes/imagen,corazonta.jpg);
         background-size: cover;
         width: 100%;
@@ -178,10 +158,45 @@
         color: #fff;
         display: flex;
         align-items: center;
+        .comentarios{
+            display: block;
+            width: 90%;
+            background-color: rgb(121, 121, 114);
+        }    
+    } 
+    @media(min-width: 320px) and (max-width: 414px){
+        background: linear-gradient(to top, rgba(50, 51, 43, 0.8), rgb(58, 58, 53)),
+        url(./imagenes/imagen,corazonta.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        .comentarios{
+            display: block;
+            margin: 10px 10px 30px 30px;
+            background-color: rgb(121, 121, 114);
+        }    
+    }
+    @media(min-width: 415px) and (max-width: 912px){
+        background: linear-gradient(to top, rgba(50, 51, 43, 0.8), rgb(58, 58, 53)),
+        url(./imagenes/imagen,corazonta.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        .comentarios{
+            display: block;
+            margin: 10px 30px 30px 50px;
+            background-color: rgb(121, 121, 114);
+        }
     }
 
     @media(min-width: 913px) and (max-width: 1204px){
-        background: linear-gradient(to top, rgba(86, 88, 54, 0.8), rgb(70, 70, 52)),
+        background: linear-gradient(to top, rgba(50, 51, 43, 0.8), rgb(58, 58, 53)),
         url(./imagenes/imagen,corazon.jpg);
         background-size: cover;
         width: 100%;
@@ -189,9 +204,14 @@
         color: #fff;
         display: flex;
         align-items: center;
+        .comentarios{
+            display: block;
+            margin: 10px 30px 30px 50px;
+            background-color: rgb(121, 121, 114);
+        }
     }
     @media(min-width: 1205px){
-        background: linear-gradient(to top, rgba(86, 88, 54, 0.8), rgb(70, 70, 52)),
+        background: linear-gradient(to top, rgba(50, 51, 43, 0.8), rgb(58, 58, 53)),
         url(./imagenes/imagen,corazon.jpg);
         background-size: cover;
         width: 100%;
@@ -199,6 +219,11 @@
         color: #fff;
         display: flex;
         align-items: center;
+        .comentarios{
+            display: block;
+            margin: 10px 50px 30px 50px;
+            background-color: rgb(121, 121, 114);
+        }
     }
 }
 
