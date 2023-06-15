@@ -120,6 +120,7 @@ form label, form legend{
         margin: 0 0 10px 30px;
         padding: 2px 2px;
         width: 60%;
+        font-size: 13px;
         background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
     }
     @media(min-width: 1205px){
@@ -127,6 +128,7 @@ form label, form legend{
         margin: 0 0 10px 30px;
         padding: 2px;
         width: 60%;
+        font-size: 13px;
         background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
     }
 }
@@ -189,7 +191,7 @@ form label, form legend{
     @media(min-width: 1205px){        
         width: 40%;
         padding: 15px 0;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: bold;
         color:rgb(14, 14, 13);
         background: rgba(116, 116, 107, 0.884);
@@ -197,7 +199,7 @@ form label, form legend{
         border-radius: 5px;
         transition: 1s all;
         cursor:pointer;
-        margin: 10px 0 30px 85px;
+        margin: 10px 0 50px 85px;
     }
 }
 
