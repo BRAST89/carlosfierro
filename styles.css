@@ -770,6 +770,11 @@ header {
     align-items: center;
   }
 }
+@media (min-width: 551px) {
+  .container__contratarModal1 {
+    display: none;
+  }
+}
 @media (min-width: 320px) {
   .container__biografiaModal {
     display: flex;
@@ -1112,18 +1117,6 @@ header {
   }
 }
 
-/*.nav-item{
-
-    @media(min-width: 769px){
-        width: 105px;
-    }
-    @media(min-width: 894px){
-        width: 110px;
-    }
-    @media(min-width: 1115px){
-        width: 150px;
-    }
-}*/
 @media (min-width: 320px) {
   .dropdown-menu {
     background-color: rgb(27, 26, 26);
@@ -1169,6 +1162,26 @@ header {
     width: 130px;
   }
   .nav-link:hover {
+    border-bottom: 2px solid rgb(156, 158, 47);
+  }
+}
+
+@media (min-width: 769px) {
+  .nav-link.dropdown-toggle {
+    color: rgb(219, 219, 213);
+    gap: 10px;
+  }
+  .nav-link.dropdown-toggle:hover {
+    border-bottom: 2px solid rgb(131, 133, 39);
+  }
+}
+@media (min-width: 828px) {
+  .nav-link.dropdown-toggle {
+    color: rgb(219, 219, 213);
+    width: 130px;
+    font-size: 17px;
+  }
+  .nav-link.dropdown-toggle:hover {
     border-bottom: 2px solid rgb(156, 158, 47);
   }
 }
@@ -2209,6 +2222,7 @@ header {
     display: block;
     margin: 0 0 10px 30px;
     padding: 5px 5px;
+    font-size: 11px;
     width: 80%;
     background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
   }
@@ -2218,6 +2232,7 @@ header {
     display: block;
     margin: 0 0 10px 30px;
     padding: 5px 5px;
+    font-size: 11px;
     width: 80%;
     background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
   }
@@ -2227,6 +2242,7 @@ header {
     display: block;
     margin: 0 0 10px 30px;
     padding: 5px 5px;
+    font-size: 13px;
     width: 80%;
     background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
   }
@@ -2237,7 +2253,7 @@ header {
     margin: 0 0 10px 30px;
     padding: 2px 2px;
     width: 60%;
-    font-size: 13px;
+    font-size: 11px;
     background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
   }
 }

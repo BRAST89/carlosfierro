@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
-/*.nav-item{
 
-    @media(min-width: 769px){
-        width: 105px;
-    }
-    @media(min-width: 894px){
-        width: 110px;
-    }
-    @media(min-width: 1115px){
-        width: 150px;
-    }
-}*/
 
 .dropdown-menu{
     @media(min-width: 320px){
@@ -56,4 +45,21 @@
     }
 
 }
+.nav-link.dropdown-toggle{
+    @media(min-width: 769px){
+        color: rgb(219, 219, 213);
+        gap: 10px;
+        &:hover{
+            border-bottom: 2px solid rgb(131, 133, 39);
+        }
+    }
 
+    @media(min-width: 828px){
+        color: rgb(219, 219, 213);
+        width: 130px;
+        font-size: 17px;
+        &:hover{
+            border-bottom: 2px solid rgb(156, 158, 47);
+        }
+    }
+}

@@ -82,12 +82,50 @@
       </div>
     </div>
   </nav>
-  
-  <div class="container__contratar">
-  </div>
-  <div class="container__contratarT">
-  </div>
+  <div class="container__contratarModal1">
+    <div class="container-card1">
+      <div class="card">
+        <figure>
+          <img src="imagenes/6.jpg">
+        </figure>
+        <div class="contenido-card">
+          <h3>Carlos Fierro</h3>
+          <p>Telefono: +34 684 02 70 80</p>
+          <p>Correo: @carlosfierroarte.com</p>
+          <a href="#">correo</a>
+        </div>
+      </div>
+    </div>
+  </div> 
   <div class="container__contratarModal">
+    <div class="container-card">
+      <div class="card">
+        <figure>
+          <img src="imagenes/6.jpg">
+        </figure>
+        <div class="contenido-card">
+          <h3>Carlos Fierro</h3>
+          <p>Phone: +34 684 02 70 80</p>
+          <p>Email: @carlosfierroarte.com</p>
+          <a href="#">Email</a>
+        </div>
+      </div>
+    </div>
+    <form class="contacto">
+      <label for="nombreapellido">Name</label>
+      <input type="text" id="nombreapellido" class="input-padron" required>
+  
+      <label for="correoelectronico">Email</label>
+      <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+  
+      <label for="telefono">Phone</label>
+      <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+  
+      <label  for="mensaje">Message</label>
+      <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>             
+                  
+      <input type="submit" value="Send" class="enviar">
+    </form>  
   </div>
 
   

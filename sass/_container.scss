@@ -29,7 +29,10 @@
     &__contratarModal1{
         @media(max-width: 550px){
             @include mixins.containercontactar;
-        }   
+        }
+        @media(min-width: 551px){
+            display: none;
+        }      
     }
 
     &__biografiaModal{
