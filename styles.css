@@ -244,6 +244,11 @@ header {
   background-color: rgb(10, 10, 10);
 }
 
+.container {
+  /*&__galeriaMobile{
+      @include mixins.containerinicio;
+  }*/
+}
 @media (max-width: 319px) {
   .container__inicio {
     display: flex;
@@ -530,134 +535,6 @@ header {
     display: block;
     margin: 10px 50px 30px 50px;
     background-color: rgb(121, 121, 114);
-  }
-}
-@media (max-width: 319px) {
-  .container__galeriaMobile {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
-  }
-}
-@media (min-width: 320px) and (max-width: 414px) {
-  .container__galeriaMobile {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
-  }
-}
-@media (min-width: 415px) and (max-width: 912px) {
-  .container__galeriaMobile {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
-  }
-}
-@media (min-width: 913px) and (max-width: 1204px) {
-  .container__galeriaMobile {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
-    padding: 25px p;
-    padding-color: beige;
-    padding-font-size: 25px;
-  }
-}
-@media (min-width: 1205px) {
-  .container__galeriaMobile {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
-    padding: 25px p;
-    padding-color: rgb(39, 39, 38);
-    padding-font-size: 25px;
-  }
-}
-@media (max-width: 319px) {
-  .container__expositionModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
-  }
-}
-@media (min-width: 320px) and (max-width: 414px) {
-  .container__expositionModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
-  }
-}
-@media (min-width: 415px) and (max-width: 912px) {
-  .container__expositionModal {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
-  }
-}
-@media (min-width: 913px) and (max-width: 1204px) {
-  .container__expositionModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
-    padding: 25px p;
-    padding-color: beige;
-    padding-font-size: 25px;
-  }
-}
-@media (min-width: 1205px) {
-  .container__expositionModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
-    padding: 25px p;
-    padding-color: rgb(39, 39, 38);
-    padding-font-size: 25px;
   }
 }
 @media (max-width: 319px) {
@@ -867,66 +744,57 @@ header {
 }
 @media (max-width: 319px) {
   .container__esculturasModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(44, 44, 44)), url(./imagenes/2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
   .container__esculturasModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 46, 46)), url(./imagenes/2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 @media (min-width: 415px) and (max-width: 912px) {
   .container__esculturasModal {
-    display: flex;
-    justify-content: center;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(49, 49, 49)), url(./imagenes/2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
   .container__esculturasModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60)), url(./imagenes/2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 80vh;
-    top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
-    padding: 25px p;
-    padding-color: beige;
-    padding-font-size: 25px;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 @media (min-width: 1205px) {
   .container__esculturasModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60)), url(./imagenes/2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 80vh;
-    top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
-    padding: 25px p;
-    padding-color: rgb(39, 39, 38);
-    padding-font-size: 25px;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 @media (max-width: 319px) {

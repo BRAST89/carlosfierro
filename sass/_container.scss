@@ -16,12 +16,10 @@
         @include mixins.containerlibro;
  
     }
-    &__galeriaMobile{
+    /*&__galeriaMobile{
         @include mixins.containerinicio;
-    }
-    &__expositionModal{
-        @include mixins.containerinicio;
-    }
+    }*/
+
     &__contratarModal{
         @include mixins.containercontactar;
         
@@ -44,7 +42,7 @@
     }
 
     &__esculturasModal{
-        @include mixins.containerinicio;
+        @include mixins.containerEsculturas;
     }
 
     &__grabadosModal{
