@@ -16,9 +16,6 @@
         @include mixins.containerlibro;
  
     }
-    /*&__galeriaMobile{
-        @include mixins.containerinicio;
-    }*/
 
     &__contratarModal{
         @include mixins.containercontactar;
@@ -44,6 +41,7 @@
     &__esculturasModal{
         @include mixins.containerEsculturas;
     }
+
 
     &__grabadosModal{
         @include mixins.containerinicio;

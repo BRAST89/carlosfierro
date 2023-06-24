@@ -1,0 +1,118 @@
+.esculturas{
+    //border: solid 1px red;
+    
+    @media(max-width: 319px){
+        gap: 10px;
+        margin: auto;
+        box-shadow: 0 0 15px gray;
+          
+    } 
+    @media(min-width: 320px) and (max-width: 414px){
+        gap: 10px;
+        margin: auto;
+        box-shadow: 0 0 15px gray;
+           
+    }
+    @media(min-width: 415px) and (max-width: 650px){
+        
+        width: 85%;
+        height: 60%;
+        margin: 20px 8px 20px 10px;
+        box-shadow: 0 0 15px gray;
+        
+    }
+    @media(min-width: 651px) and (max-width: 912px){
+        gap: 10px;
+        margin: 20px 20px 20px 5px;
+        box-shadow: 0 0 15px gray;
+        
+    }
+
+    @media(min-width: 913px) and (max-width: 1204px){
+        gap: 10px;
+        margin: 20px 8px 20px 10px;
+        box-shadow: 0 0 15px gray;
+    }
+    @media(min-width: 1205px){
+        gap: 10px;
+        margin: 20px 8px 20px 10px;
+        box-shadow: 0 0 15px gray;
+    }
+}
+.tituloesculturas{
+    text-align: center;
+}
+
+.imagenescultura{
+    @media(max-width: 319px){
+        display: inline-block;
+        text-align: center;
+        width: 90%;
+        vertical-align: top;
+        margin: 0 1.0% 10px 15px;
+        padding: 30px 20px 20px 20px;
+        box-sizing: border-box;
+        border: 2px solid #292828;
+        border-radius: 10px;
+          
+    } 
+    @media(min-width: 320px) and (max-width: 414px){
+        display: inline-block;
+        text-align: center;
+        width: 90%;
+        vertical-align: top;
+        margin: 0 1.0% 10px 20px;
+        padding: 30px 20px 20px 20px;
+        box-sizing: border-box;
+        border: 2px solid #292828;
+        border-radius: 10px;
+           
+    }
+    @media(min-width: 415px) and (max-width: 650px){
+        display: inline-block;
+        text-align: center;
+        width: 45%;
+        vertical-align: top;
+        margin: 0 1.0% 10px 15px;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 2px solid #292828;
+        border-radius: 10px;
+        
+    }
+    @media(min-width: 651px) and (max-width: 912px){
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        vertical-align: top;
+        margin: 0 1.0% 10px 15px;;
+        padding: 20px 10px ;
+        box-sizing: border-box;
+        border: 2px solid #292828;
+        border-radius: 10px;
+        
+    }
+    @media(min-width: 913px) and (max-width: 1204px){
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        vertical-align: top;
+        margin: 0 1.0% 10px 20px;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 2px solid #292828;
+        border-radius: 10px;
+    }
+    @media(min-width: 1205px){
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        vertical-align: top;
+        margin: 0 1.0% 10px 20px;
+        padding: 30px 20px ;
+        box-sizing: border-box;
+        border: 2px solid #292828;
+        border-radius: 10px;
+    }
+    
+}

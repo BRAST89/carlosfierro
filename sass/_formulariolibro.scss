@@ -5,14 +5,19 @@ form{
         width: 80%;
     } 
     @media(min-width: 320px) and (max-width: 414px){
-        margin: 40px 0 0 30px;
+        margin: 40px 0 0 20px;
         //border: 1px solid red;
         width: 85%;
     }
-    @media(min-width: 415px) and (max-width: 912px){
-        margin: 40px 0 0 30px;
+    @media(min-width: 415px) and (max-width: 650px){
+        margin: 40px 0 0 10px;
         //border: 1px solid red;
         width: 70%;
+    }
+    @media(min-width: 651px) and (max-width: 912px){
+        margin: 40px 0 0 10px;
+        //border: 1px solid red;
+        width: 80%;
     }
     
     @media(min-width: 913px) and (max-width: 1204px){
@@ -109,7 +114,15 @@ form label, form legend{
         width: 80%;
         background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
     }
-    @media(min-width: 415px) and (max-width: 912px){
+    @media(min-width: 415px) and (max-width: 540px){
+        display: block;
+        margin: 0 0 10px 30px;
+        padding: 5px 5px;
+        font-size: 13px;
+        width: 80%;
+        background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
+    }
+    @media(min-width: 541px) and (max-width: 912px){
         display: block;
         margin: 0 0 10px 30px;
         padding: 5px 5px;
@@ -334,7 +347,9 @@ form label, form legend{
         margin: auto;
     }
     @media(min-width: 541px) and (max-width: 912px){
-        margin: 450px 0 60px 160px;
+        margin: 150px 0 40px 10px;
+        width: 100%;
+
     }
     
     @media(min-width: 913px) and (max-width: 1204px){

@@ -244,11 +244,6 @@ header {
   background-color: rgb(10, 10, 10);
 }
 
-.container {
-  /*&__galeriaMobile{
-      @include mixins.containerinicio;
-  }*/
-}
 @media (max-width: 319px) {
   .container__inicio {
     display: flex;
@@ -258,7 +253,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
@@ -270,7 +265,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 415px) and (max-width: 912px) {
@@ -282,7 +277,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -293,7 +288,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
     padding: 25px p;
     padding-color: beige;
     padding-font-size: 25px;
@@ -307,7 +302,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
     padding: 25px p;
     padding-color: rgb(39, 39, 38);
     padding-font-size: 25px;
@@ -322,7 +317,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
@@ -334,7 +329,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 415px) and (max-width: 912px) {
@@ -346,7 +341,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -357,7 +352,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
     padding: 25px p;
     padding-color: beige;
     padding-font-size: 25px;
@@ -371,7 +366,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
     padding: 25px p;
     padding-color: rgb(39, 39, 38);
     padding-font-size: 25px;
@@ -443,7 +438,7 @@ header {
 }
 @media (min-width: 1205px) {
   .container__libroModal {
-    background: linear-gradient(to top, rgba(50, 51, 43, 0.8), rgb(58, 58, 53)), url(./imagenes/imagen,corazon.jpg);
+    background: linear-gradient(to top, rgba(50, 51, 43, 0.8), rgb(43, 43, 42)), url(./imagenes/imagen,corazon.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -523,7 +518,7 @@ header {
 }
 @media (min-width: 1205px) {
   .container__libroModalcomentarios {
-    background: linear-gradient(to top, rgba(50, 51, 43, 0.8), rgb(58, 58, 53)), url(./imagenes/imagen,corazon.jpg);
+    background: linear-gradient(to top, rgba(50, 51, 43, 0.8), rgb(43, 43, 42)), url(./imagenes/imagen,corazon.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -559,12 +554,23 @@ header {
     align-items: center;
   }
 }
-@media (min-width: 415px) and (max-width: 912px) {
+@media (min-width: 415px) and (max-width: 650px) {
   .container__contratarModal {
     background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(49, 49, 49)), url(./imagenes/imagen,corazonta.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 651px) and (max-width: 912px) {
+  .container__contratarModal {
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(49, 49, 49)), url(./imagenes/imagen,corazonta.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
     color: #fff;
     display: flex;
     align-items: center;
@@ -583,7 +589,7 @@ header {
 }
 @media (min-width: 1205px) {
   .container__contratarModal {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60)), url(./imagenes/imagen,corazon.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(41, 41, 40)), url(./imagenes/imagen,corazon.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -614,12 +620,23 @@ header {
     align-items: center;
   }
 }
-@media (max-width: 550px) and (min-width: 415px) and (max-width: 912px) {
+@media (max-width: 550px) and (min-width: 415px) and (max-width: 650px) {
   .container__contratarModal1 {
     background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(49, 49, 49)), url(./imagenes/imagen,corazonta.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 550px) and (min-width: 651px) and (max-width: 912px) {
+  .container__contratarModal1 {
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(49, 49, 49)), url(./imagenes/imagen,corazonta.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
     color: #fff;
     display: flex;
     align-items: center;
@@ -638,7 +655,7 @@ header {
 }
 @media (max-width: 550px) and (min-width: 1205px) {
   .container__contratarModal1 {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60)), url(./imagenes/imagen,corazon.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(41, 41, 40)), url(./imagenes/imagen,corazon.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -687,7 +704,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
@@ -699,7 +716,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 415px) and (max-width: 912px) {
@@ -711,7 +728,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -722,7 +739,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
     padding: 25px p;
     padding-color: beige;
     padding-font-size: 25px;
@@ -736,7 +753,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
     padding: 25px p;
     padding-color: rgb(39, 39, 38);
     padding-font-size: 25px;
@@ -744,10 +761,10 @@ header {
 }
 @media (max-width: 319px) {
   .container__esculturasModal {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(44, 44, 44)), url(./imagenes/2.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/2.jpg);
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: auto;
     color: #fff;
     display: flex;
     align-items: center;
@@ -755,21 +772,32 @@ header {
 }
 @media (min-width: 320px) and (max-width: 414px) {
   .container__esculturasModal {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 46, 46)), url(./imagenes/2.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/2.jpg);
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: auto;
     color: #fff;
     display: flex;
     align-items: center;
   }
 }
-@media (min-width: 415px) and (max-width: 912px) {
+@media (min-width: 415px) and (max-width: 650px) {
   .container__esculturasModal {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(49, 49, 49)), url(./imagenes/2.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/2.jpg);
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 651px) and (max-width: 912px) {
+  .container__esculturasModal {
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
     color: #fff;
     display: flex;
     align-items: center;
@@ -777,10 +805,10 @@ header {
 }
 @media (min-width: 913px) and (max-width: 1204px) {
   .container__esculturasModal {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60)), url(./imagenes/2.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/2.jpg);
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: auto;
     color: #fff;
     display: flex;
     align-items: center;
@@ -788,10 +816,10 @@ header {
 }
 @media (min-width: 1205px) {
   .container__esculturasModal {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60)), url(./imagenes/2.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/2.jpg);
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: auto;
     color: #fff;
     display: flex;
     align-items: center;
@@ -806,7 +834,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
@@ -818,7 +846,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 415px) and (max-width: 912px) {
@@ -830,7 +858,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -841,7 +869,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
     padding: 25px p;
     padding-color: beige;
     padding-font-size: 25px;
@@ -855,7 +883,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
     padding: 25px p;
     padding-color: rgb(39, 39, 38);
     padding-font-size: 25px;
@@ -870,7 +898,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
@@ -882,7 +910,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 415px) and (max-width: 912px) {
@@ -894,7 +922,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -905,7 +933,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
     padding: 25px p;
     padding-color: beige;
     padding-font-size: 25px;
@@ -919,7 +947,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(61, 61, 60));
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
     padding: 25px p;
     padding-color: rgb(39, 39, 38);
     padding-font-size: 25px;
@@ -1445,7 +1473,7 @@ header {
     width: 70px;
     height: 20px;
     float: right;
-    right: -115px;
+    right: -110px;
     position: relative;
     top: -92px;
     font-size: 22px;
@@ -1559,7 +1587,8 @@ header {
 }
 @media (min-width: 541px) and (max-width: 912px) {
   .container-card {
-    margin: 450px 0 60px 160px;
+    margin: 20px 0 10px 30px;
+    width: 100%;
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -1678,7 +1707,7 @@ header {
     cursor: default;
   }
 }
-@media (min-width: 415px) and (max-width: 912px) {
+@media (min-width: 415px) and (max-width: 650px) {
   .card {
     width: 100%;
     margin: 20px;
@@ -1686,6 +1715,18 @@ header {
     overflow: hidden;
     background: linear-gradient(to top, rgba(31, 30, 30, 0.8), rgb(20, 20, 20));
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+  }
+}
+@media (min-width: 651px) and (max-width: 912px) {
+  .card {
+    width: 100%;
+    margin: 0 20px 10px 0;
+    border-radius: 6px;
+    overflow: hidden;
+    background: linear-gradient(to top, rgba(31, 30, 30, 0.8), rgb(20, 20, 20));
+    box-shadow: 0px 1px 10px rgba(158, 31, 31, 0.2);
     transition: all 400ms ease-out;
     cursor: default;
   }
@@ -1990,14 +2031,20 @@ header {
 }
 @media (min-width: 320px) and (max-width: 414px) {
   form {
-    margin: 40px 0 0 30px;
+    margin: 40px 0 0 20px;
     width: 85%;
   }
 }
-@media (min-width: 415px) and (max-width: 912px) {
+@media (min-width: 415px) and (max-width: 650px) {
   form {
-    margin: 40px 0 0 30px;
+    margin: 40px 0 0 10px;
     width: 70%;
+  }
+}
+@media (min-width: 651px) and (max-width: 912px) {
+  form {
+    margin: 40px 0 0 10px;
+    width: 80%;
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -2105,7 +2152,17 @@ header {
     background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
   }
 }
-@media (min-width: 415px) and (max-width: 912px) {
+@media (min-width: 415px) and (max-width: 540px) {
+  .input-padron, .input-padronL {
+    display: block;
+    margin: 0 0 10px 30px;
+    padding: 5px 5px;
+    font-size: 13px;
+    width: 80%;
+    background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
+  }
+}
+@media (min-width: 541px) and (max-width: 912px) {
   .input-padron, .input-padronL {
     display: block;
     margin: 0 0 10px 30px;
@@ -2362,7 +2419,8 @@ header {
 }
 @media (min-width: 541px) and (max-width: 912px) {
   .contacto {
-    margin: 450px 0 60px 160px;
+    margin: 150px 0 40px 10px;
+    width: 100%;
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -2373,6 +2431,133 @@ header {
 @media (min-width: 1205px) {
   .contacto {
     width: 50%;
+  }
+}
+
+@media (max-width: 319px) {
+  .esculturas {
+    gap: 10px;
+    margin: auto;
+    box-shadow: 0 0 15px gray;
+  }
+}
+@media (min-width: 320px) and (max-width: 414px) {
+  .esculturas {
+    gap: 10px;
+    margin: auto;
+    box-shadow: 0 0 15px gray;
+  }
+}
+@media (min-width: 415px) and (max-width: 650px) {
+  .esculturas {
+    width: 85%;
+    height: 60%;
+    margin: 20px 8px 20px 10px;
+    box-shadow: 0 0 15px gray;
+  }
+}
+@media (min-width: 651px) and (max-width: 912px) {
+  .esculturas {
+    gap: 10px;
+    margin: 20px 20px 20px 5px;
+    box-shadow: 0 0 15px gray;
+  }
+}
+@media (min-width: 913px) and (max-width: 1204px) {
+  .esculturas {
+    gap: 10px;
+    margin: 20px 8px 20px 10px;
+    box-shadow: 0 0 15px gray;
+  }
+}
+@media (min-width: 1205px) {
+  .esculturas {
+    gap: 10px;
+    margin: 20px 8px 20px 10px;
+    box-shadow: 0 0 15px gray;
+  }
+}
+
+.tituloesculturas {
+  text-align: center;
+}
+
+@media (max-width: 319px) {
+  .imagenescultura {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    vertical-align: top;
+    margin: 0 1% 10px 15px;
+    padding: 30px 20px 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #292828;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 320px) and (max-width: 414px) {
+  .imagenescultura {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    vertical-align: top;
+    margin: 0 1% 10px 20px;
+    padding: 30px 20px 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #292828;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 415px) and (max-width: 650px) {
+  .imagenescultura {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 1% 10px 15px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #292828;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 651px) and (max-width: 912px) {
+  .imagenescultura {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1% 10px 15px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 2px solid #292828;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 913px) and (max-width: 1204px) {
+  .imagenescultura {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1% 10px 20px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #292828;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 1205px) {
+  .imagenescultura {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1% 10px 20px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #292828;
+    border-radius: 10px;
   }
 }
 
