@@ -15,15 +15,15 @@ document.addEventListener('DOMContentLoaded',function (){
         {img: 'imagenes/Galeria/esculturas/tierra viva/12.jpg'},
         {img: 'imagenes/Galeria/esculturas/tierra viva/13.jpg'},
        
-        {img: '/imagenes/Galeria/esculturas/la cobra/1cobra.jpg'},
-        {img: '/imagenes/Galeria/esculturas/la cobra/2cobra.jpg'},
-        {img: '/imagenes/Galeria/esculturas/la cobra/3cobra.jpg'},
-        {img: '/imagenes/Galeria/esculturas/la cobra/4cobra.jpg'},
-        {img: '/imagenes/Galeria/esculturas/la cobra/5cobra.jpg'},
-        {img: '/imagenes/Galeria/esculturas/la cobra/6cobra.jpg'},
-        {img: '/imagenes/Galeria/esculturas/la cobra/7cobra.jpg'},
-        {img: '/imagenes/Galeria/esculturas/la cobra/8cobra.jpg'},
-        {img: '/imagenes/Galeria/esculturas/la cobra/9cobra.jpg'}
+        {img: 'imagenes/Galeria/esculturas/la cobra/1cobra.jpg'},
+        {img: 'imagenes/Galeria/esculturas/la cobra/2cobra.jpg'},
+        {img: 'imagenes/Galeria/esculturas/la cobra/3cobra.jpg'},
+        {img: 'imagenes/Galeria/esculturas/la cobra/4cobra.jpg'},
+        {img: 'imagenes/Galeria/esculturas/la cobra/5cobra.jpg'},
+        {img: 'imagenes/Galeria/esculturas/la cobra/6cobra.jpg'},
+        {img: 'imagenes/Galeria/esculturas/la cobra/7cobra.jpg'},
+        {img: 'imagenes/Galeria/esculturas/la cobra/8cobra.jpg'},
+        {img: 'imagenes/Galeria/esculturas/la cobra/9cobra.jpg'}
     ]
     
     
