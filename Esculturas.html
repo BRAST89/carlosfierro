@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css  ">
   <link rel="stylesheet" href="./styles.css">
+  <script src="./js/script.js"></script>
 </head>
 <header>
   <h1 class="firma">Carlos Fierro</h1>
@@ -81,104 +82,219 @@
       </div>
     </div>
   </nav>
+  <div class="overlay">
+    <div class="slideshow">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-x-circle-fill" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+      </svg>
+      <div class="botones atras">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+          <path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+        </svg>
+      </div>
+      <div class="botones adelante">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+          <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </div>
+      <img src="" alt="" id="img_slideshow">
+    </div>
+  </div>
+  <br>
+  <br>
+  <h1 class="tituloesculturas">Esculturas</h1>
+  <br>
+  <br>
 
-  <div class="container__esculturasModal">
+  <section class="container__esculturasModal"> <!--galeria-->
+        
     <div>
-      <br>
-      <br>
-      <h1 class="tituloesculturas">Esculturas</h1>
-      <br>
-      <br>
       <li class="imagenescultura">
-        <h6>La Tierra Esta Viva</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/tierra viva/2container.jpg" alt="" ></a>
+        <h6 >La Tierra Esta Viva</h6>
+        <img  src="imagenes/Galeria/esculturas/tierra viva/2container.jpg" alt="" data-img-mostrar="0">
+        <div class="tierraviva">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/2.jpg" alt="" data-img-mostrar="1">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/1.jpg" alt="" data-img-mostrar="2">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/3.jpg" alt="" data-img-mostrar="3">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/4.jpg" alt="" data-img-mostrar="4">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/5.jpg" alt="" data-img-mostrar="5">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/6.jpg" alt="" data-img-mostrar="6">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/7.jpg" alt="" data-img-mostrar="7">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/8.jpg" alt="" data-img-mostrar="8">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/9.jpg" alt="" data-img-mostrar="9">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/10.jpg" alt="" data-img-mostrar="10">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/11.jpg" alt="" data-img-mostrar="11">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/12.jpg" alt="" data-img-mostrar="12">
+          <img  src="imagenes/Galeria/esculturas/tierra viva/13.jpg" alt="" data-img-mostrar="13">
+        </div>
+        
       </li>
       <li class="imagenescultura">
         <h6 >La Cobra</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/la cobra/1cobracontainer.jpg" alt="" ></a>
-      </li>
-      <li class="imagenescultura">
-        <h6>Porque Despues de la Tormenta... Siempre sale el sol</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/Tormenta/1torcontainer.jpg" alt="" ></a>
-      </li>
-      <li class="imagenescultura">
-        <h6>La Unión</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/Union/1unicontainer.jpg" alt="" ></a>
-      </li>
-      <li class="imagenescultura">
-        <h6>Yo Decido mi Camino</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/camino/4camcontainer.jpg" alt="" ></a>
-      </li>
-      <li class="imagenescultura">
-        <h6>Que Tiempos Aquellos</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/tiempos/1tiecontainer.jpg" alt="" ></a>
-      </li>
-      <li class="imagenescultura">
-        <h6>Desayuno de Campeones</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/desayuno/1descontainer.jpg" alt="" ></a>
-      </li>
-      <li class="imagenescultura">
-        <h6>El Relog del Tiempo</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/reloj del tiempo/1recontainer.jpg" alt="" ></a>
-      </li>
-      <li class="imagenescultura">
-        <h6>El acero Inoxidable</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/el acero inoxidable/1acercontainer.jpg" alt="" ></a>
-      </li>
-      <li class="imagenescultura">
-        <h6>El Quijote</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/el quijote/4quicontainer.jpg" alt="" ></a>
-      </li>
-      <li class="imagenescultura">
-        <h6>El Rosal</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/arbol/12arcontainer.jpg" alt="" ></a>
-      </li>
-      <li class="imagenescultura">
-        <h6>El Pulmon</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/el pulmon/1pucontainer.jpg" alt="" ></a>
+        <img src="imagenes/Galeria/esculturas/la cobra/1cobracontainer.jpg" alt="" data-img-mostrar="15">
+        <div class="cobra">
+          <img src="imagenes/Galeria/esculturas/la cobra/1cobra.jpg" alt="" data-img-mostrar="16">
+          <img src="imagenes/Galeria/esculturas/la cobra/2cobra.jpg" alt="" data-img-mostrar="17">
+          <img src="imagenes/Galeria/esculturas/la cobra/3cobra.jpg" alt="" data-img-mostrar="18">
+          <img src="imagenes/Galeria/esculturas/la cobra/4cobra.jpg" alt="" data-img-mostrar="19">
+          <img src="imagenes/Galeria/esculturas/la cobra/5cobra.jpg" alt="" data-img-mostrar="20">
+          <img src="imagenes/Galeria/esculturas/la cobra/6cobra.jpg" alt="" data-img-mostrar="21">
+          <img src="imagenes/Galeria/esculturas/la cobra/7cobra.jpg" alt="" data-img-mostrar="22">
+          <img src="imagenes/Galeria/esculturas/la cobra/8cobra.jpg" alt="" data-img-mostrar="23">
+          <img src="imagenes/Galeria/esculturas/la cobra/9cobra.jpg" alt="" data-img-mostrar="24">
+
+        </div>
       </li>
       <li class="imagenescultura">
         <h6>Grita Libertad</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/grita libertad/1libercontainer.jpg" alt="" ></a>
+        
+        <img src="imagenes/Galeria/esculturas/grita libertad/1libercontainer.jpg" alt="" data-img-mostrar="">
       </li>
       <li class="imagenescultura">
+        <h6>Porque Despues de la Tormenta...
+          <br>...siempre sale el sol</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/Tormenta/1torcontainer.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>La Unión</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/Union/1unicontainer.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Yo Decido mi Camino</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/camino/4camcontainer.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Que Tiempos Aquellos</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/tiempos/1tiecontainer.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Desayuno de Campeones</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/desayuno/1descontainer.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>El Relog del Tiempo</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/reloj del tiempo/1recontainer.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>El acero Inoxidable</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/el acero inoxidable/1acercontainer.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>El Quijote</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/el quijote/4quicontainer.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>El Rosal</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/arbol/12arcontainer.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>El Pulmon</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/el pulmon/1pucontainer.jpg" alt="" ></a>
+      </li>
+      
+      <li class="imagenescultura">
         <h6>El PuLmon... 2ºparte</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/el pulmon 2(28-05-2014)/3pulcontainer.jpg" alt="" ></a>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/el pulmon 2(28-05-2014)/3pulcontainer.jpg" alt="" ></a>
       </li>
       <li class="imagenescultura">
         <h6>La Cigüeña</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/la cigueña/1cicontainer.jpg" alt="" ></a>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/la cigueña/1cicontainer.jpg" alt="" ></a>
       </li>
       <li class="imagenescultura">
         <h6>La Punta del Iceberg</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/la punta del iceberg/1puncontainer.jpg" alt="" ></a>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/la punta del iceberg/1puncontainer.jpg" alt="" ></a>
       </li>
       <li class="imagenescultura">
         <h6>La Evolucion de La Materia</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/evolucion de la materia/1evucontainer.jpg" alt="" ></a>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/evolucion de la materia/1evucontainer.jpg" alt="" ></a>
       </li>
-      <li class="imagenescultura">
-        <h6>La Locomotora</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/la locomotora/1lococontainer.jpg" alt="" ></a>
-      </li>
+      
       <li class="imagenescultura">
         <h6>Los Lazos de Unión</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/lazos de union/1lazcontainer.jpg" alt="" ></a>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/lazos de union/1lazcontainer.jpg" alt="" ></a>
       </li>
       <li class="imagenescultura">
         <h6>Renacimiento</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/renacimiento/1rencontainer.jpg" alt="" ></a>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/renacimiento/1rencontainer.jpg" alt="" ></a>
       </li>
       <li class="imagenescultura">
         <h6>Resplandor</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/resplandor/2rescontainer.jpg" alt="" ></a>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/resplandor/rescontainer.jpg" alt="" ></a>
       </li>
       <li class="imagenescultura">
         <h6>Todos con Paula</h6>
-        <a href=""><img class="esculturas" src="imagenes/esculturas/todos con paula/1paucontainer.jpg" alt="" ></a>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/todos con paula/1paucontainer.jpg" alt="" ></a>
       </li>
-      
-    </div>
+      <li class="imagenescultura">
+        <h6>Viveros Ollo Redondo (25 aniversario)</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/viveros/vive1container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Viveros Ollo Redondo (25 aniversario) (10 und)</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/viveros ollo redondo/vivtro1container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>La Ejecución</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/la ejecucion/eje16container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Un Sueño</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/un sueño/su2container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>The Family - (Homenaje a Dalí)</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/homenaje dally/ho1container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Calentamiento Hormal</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/calentamiento hormal/ca10container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Mi Corazon</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/mi corazon/co7container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Herido</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/herido/heridocontainer.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>La Rosa</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/la rosa/ros2container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Equilibrio</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/equilibrio/equi1container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>La mariposa</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/la mariposa/mariposacontainer.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>El Suministro</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/suministro/sumi2container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Malos Tiempos</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/malos tiempos/mal8container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Desconexión</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/desconexion/desco5container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Riqueza Natural</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/riqueza natural/ri1container.jpg" alt="" ></a>
+      </li>
+      <li class="imagenescultura">
+        <h6>Coxapo</h6>
+        <a href=""><img class="esculturas" src="imagenes/Galeria/esculturas/coxapo/cox1container.jpg" alt="" ></a>
+      </li>
+        
+
+    </section>
+
     
   </div>
   
@@ -247,5 +363,6 @@
   </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
+<script src="./main.js"></script>
 </body>
 </html>

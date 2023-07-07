@@ -1,4 +1,4 @@
-.esculturas{
+img{
     //border: solid 1px red;
     
     @media(max-width: 319px){
@@ -41,7 +41,10 @@
 }
 .tituloesculturas{
     text-align: center;
+    font: oblique bold 220% cursive;
+    color: rgb(241, 237, 176);
 }
+
 
 .imagenescultura{
     @media(max-width: 319px){
@@ -54,6 +57,13 @@
         box-sizing: border-box;
         border: 2px solid #292828;
         border-radius: 10px;
+        :hover{
+            cursor: pointer;
+            filter: grayscale(0%);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            transform: scale(1.2);
+            transition: all .5s ease;
+        }
           
     } 
     @media(min-width: 320px) and (max-width: 414px){
@@ -66,6 +76,13 @@
         box-sizing: border-box;
         border: 2px solid #292828;
         border-radius: 10px;
+        :hover{
+            cursor: pointer;
+            filter: grayscale(0%);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            transform: scale(1.2);
+            transition: all .5s ease;
+        }
            
     }
     @media(min-width: 415px) and (max-width: 650px){
@@ -78,6 +95,13 @@
         box-sizing: border-box;
         border: 2px solid #292828;
         border-radius: 10px;
+        :hover{
+            cursor: pointer;
+            filter: grayscale(0%);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            transform: scale(1.2);
+            transition: all .5s ease;
+        }
         
     }
     @media(min-width: 651px) and (max-width: 912px){
@@ -90,6 +114,13 @@
         box-sizing: border-box;
         border: 2px solid #292828;
         border-radius: 10px;
+        :hover{
+            cursor: pointer;
+            filter: grayscale(0%);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            transform: scale(1.2);
+            transition: all .5s ease;
+        }
         
     }
     @media(min-width: 913px) and (max-width: 1204px){
@@ -102,6 +133,13 @@
         box-sizing: border-box;
         border: 2px solid #292828;
         border-radius: 10px;
+        :hover{
+            cursor: pointer;
+            filter: grayscale(0%);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            transform: scale(1.2);
+            transition: all .5s ease;
+        }
     }
     @media(min-width: 1205px){
         display: inline-block;
@@ -113,6 +151,140 @@
         box-sizing: border-box;
         border: 2px solid #292828;
         border-radius: 10px;
+        :hover{
+            cursor: pointer;
+            filter: grayscale(0%);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            transform: scale(1.2);
+            transition: all .5s ease;
+        }
     }
     
+}
+.tierraviva, .cobra{
+    display: none;
+}
+
+
+.overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.slideshow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    color: #292828;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.slideshow img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.bi-bi-x-circle-fill{
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: azure;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    transition: all .2s ease;
+    :hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+
+
+
+
+.botones{
+    //border: 1px solid red;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 70px;
+    background-color: rgba(95, 90, 90, 0.7);
+    color: azure;
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    :hover{
+        transform: scale(1.1);        
+        transition: all 0.2s ease;
+    }
+    
+    
+}
+.atras{
+    left: 20px;
+
+}
+.adelante{
+    right: 20px;
+}
+.bi{
+    pointer-events: none;
+}
+@media screen and (max-width: 800px){
+    .botones{
+        font-size: 55px;
+    }
+    .atras{
+        left: 5px;
+    }
+    .adelante{
+        right: 5px;
+    }
+    .slideshow{
+        width: 98%;
+    }
+}
+@media screen and (max-width: 319px){
+    .botones{
+        font-size: 15px;
+        width: 15px;
+        height: 15px;
+    }
+    .atras{
+        left: 5px;
+    }
+    .adelante{
+        right: 5px;
+    }
+    .slideshow{
+        width: 98%;
+    }
+    .bi-bi-x-circle-fill{
+        position: absolute;
+        top: 25px;
+        right: 15px;
+        font-size: 35px;
+    }
 }

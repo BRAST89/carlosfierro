@@ -80,7 +80,7 @@
         height: 65vh;
         right: 0px;
         top: 30px;
-        background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));    
+        background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)),url(./imagenes/Galeria/carlos/ca1);    
     } 
     @media(min-width: 320px) and (max-width: 414px){
         //border: 1px solid red;
@@ -91,7 +91,7 @@
         height: 65vh;
         right: 0px;
         top: 30px;
-        background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));   
+        background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)),url(./imagenes/Galeria/carlos/ca1);   
     }
     @media(min-width: 415px) and (max-width: 912px){
         //border: 1px solid yellow;
@@ -102,7 +102,7 @@
         height: 65vh;
         right: 0px;
         top: 30px;
-        background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+        background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)),url(./imagenes/Galeria/carlos/ca1);
         }
 
     @media(min-width: 913px) and (max-width: 1204px){
@@ -113,7 +113,7 @@
         width: 100%;
         height: 80vh;
         top: 10px;
-        background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+        background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)),url(./imagenes/Galeria/carlos/ca1);
         padding: 25px
         p{
             color: beige;
@@ -124,14 +124,14 @@
         
     }
     @media(min-width: 1205px){
-        //border: 1px solid yellow;
+        
         display: flex;
         justify-content: space-between;
         position: relative;
         width: 100%;
         height: 80vh;
         top: 10px;
-        background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+        background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)),url(./imagenes/Galeria/carlos/ca1);
         padding: 25px
         p{
             color: rgb(39, 39, 38);
@@ -337,6 +337,64 @@
     }
     @media(min-width: 1205px){
         background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)),url(./imagenes/2.jpg);
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+}
+// container trofeos
+@mixin containerTrofeos{
+    @media(max-width: 319px){
+        background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)),url(./imagenes/Galeria/carlos/ca2.jpg);
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;    
+    } 
+    @media(min-width: 320px) and (max-width: 414px){
+        background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)),url(./imagenes/Galeria/carlos/ca2.jpg);
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;    
+    }
+    @media(min-width: 415px) and (max-width: 650px){
+        background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)),url(./imagenes/Galeria/carlos/ca2.jpg);
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+    @media(min-width: 651px) and (max-width: 912px){
+        background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)),url(./imagenes/Galeria/carlos/ca2.jpg);
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    @media(min-width: 913px) and (max-width: 1204px){
+        background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)),url(./imagenes/Galeria/carlos/ca2.jpg);
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+    @media(min-width: 1205px){
+        background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)),url(./imagenes/Galeria/carlos/ca2.jpg);
         background-size: cover;
         width: 100%;
         height: auto;

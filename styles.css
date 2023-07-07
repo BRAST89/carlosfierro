@@ -3,68 +3,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=League+Spartan:wght@400;500;700&display=swap");
 @media (max-width: 319px) {
   .imageDestokp {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 95%;
-    height: 95%;
-    right: -6px;
-    top: 10px;
+    display: inline-block;
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    gap: 10px;
+    margin: auto;
+    box-shadow: 0 0 15px rgb(211, 181, 14);
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
   .imageDestokp {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 94%;
-    height: 95%;
-    right: -8px;
-    top: 10px;
+    display: inline-block;
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    gap: 10px;
+    margin: auto;
+    box-shadow: 0 0 15px rgb(211, 181, 14);
   }
 }
 @media (min-width: 415px) and (max-width: 540px) {
   .imageDestokp {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 95%;
-    height: 57vh;
-    right: 0px;
-    top: 10px;
+    display: inline-block;
+    width: 65%;
+    height: 90%;
+    margin: auto;
+    gap: 10px;
+    margin: auto;
+    box-shadow: 0 0 15px rgb(211, 181, 14);
   }
 }
 @media (min-width: 541px) and (max-width: 912px) {
   .imageDestokp {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 95%;
-    height: 58vh;
-    right: 0px;
-    top: 10px;
+    display: inline-block;
+    width: 55%;
+    height: 90%;
+    margin: auto;
+    gap: 10px;
+    margin: auto;
+    box-shadow: 0 0 15px rgb(211, 181, 14);
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
   .imageDestokp {
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
-    height: 72vh;
-    position: relative;
-    right: 0px;
-    top: 10px;
+    display: inline-block;
+    width: 35%;
+    height: 90%;
+    margin: auto;
+    gap: 10px;
+    margin: auto;
+    box-shadow: 0 0 15px rgb(211, 181, 14);
   }
 }
 @media (min-width: 1205px) {
   .imageDestokp {
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
-    height: 72vh;
-    position: relative;
-    right: 0px;
-    top: 10px;
+    display: inline-block;
+    width: 35%;
+    height: 90%;
+    margin: auto;
+    gap: 10px;
+    margin: auto;
+    box-shadow: 0 0 15px rgb(211, 181, 14);
   }
 }
 
@@ -253,7 +253,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
@@ -265,7 +265,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
   }
 }
 @media (min-width: 415px) and (max-width: 912px) {
@@ -277,7 +277,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -288,7 +288,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
     padding: 25px p;
     padding-color: beige;
     padding-font-size: 25px;
@@ -302,7 +302,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
     padding: 25px p;
     padding-color: rgb(39, 39, 38);
     padding-font-size: 25px;
@@ -317,7 +317,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
@@ -329,7 +329,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
   }
 }
 @media (min-width: 415px) and (max-width: 912px) {
@@ -341,7 +341,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -352,7 +352,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
     padding: 25px p;
     padding-color: beige;
     padding-font-size: 25px;
@@ -366,7 +366,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
     padding: 25px p;
     padding-color: rgb(39, 39, 38);
     padding-font-size: 25px;
@@ -704,7 +704,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
@@ -716,7 +716,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
   }
 }
 @media (min-width: 415px) and (max-width: 912px) {
@@ -728,7 +728,7 @@ header {
     height: 65vh;
     right: 0px;
     top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -739,7 +739,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
     padding: 25px p;
     padding-color: beige;
     padding-font-size: 25px;
@@ -753,7 +753,7 @@ header {
     width: 100%;
     height: 80vh;
     top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    background: linear-gradient(to top, rgba(26, 26, 25, 0.5), rgb(10, 10, 10)), url(./imagenes/Galeria/carlos/ca1);
     padding: 25px p;
     padding-color: rgb(39, 39, 38);
     padding-font-size: 25px;
@@ -761,7 +761,7 @@ header {
 }
 @media (max-width: 319px) {
   .container__esculturasModal {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/2.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -772,7 +772,7 @@ header {
 }
 @media (min-width: 320px) and (max-width: 414px) {
   .container__esculturasModal {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/2.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -783,7 +783,7 @@ header {
 }
 @media (min-width: 415px) and (max-width: 650px) {
   .container__esculturasModal {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/2.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -794,7 +794,7 @@ header {
 }
 @media (min-width: 651px) and (max-width: 912px) {
   .container__esculturasModal {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/2.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -805,7 +805,7 @@ header {
 }
 @media (min-width: 913px) and (max-width: 1204px) {
   .container__esculturasModal {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/2.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -816,7 +816,7 @@ header {
 }
 @media (min-width: 1205px) {
   .container__esculturasModal {
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/2.jpg);
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -827,192 +827,194 @@ header {
 }
 @media (max-width: 319px) {
   .container__grabadosModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
   .container__grabadosModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
-@media (min-width: 415px) and (max-width: 912px) {
+@media (min-width: 415px) and (max-width: 650px) {
   .container__grabadosModal {
-    display: flex;
-    justify-content: center;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 651px) and (max-width: 912px) {
+  .container__grabadosModal {
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
   .container__grabadosModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 80vh;
-    top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
-    padding: 25px p;
-    padding-color: beige;
-    padding-font-size: 25px;
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 @media (min-width: 1205px) {
   .container__grabadosModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 80vh;
-    top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
-    padding: 25px p;
-    padding-color: rgb(39, 39, 38);
-    padding-font-size: 25px;
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 @media (max-width: 319px) {
   .container__trofeosModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
   .container__trofeosModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
-@media (min-width: 415px) and (max-width: 912px) {
+@media (min-width: 415px) and (max-width: 650px) {
   .container__trofeosModal {
-    display: flex;
-    justify-content: center;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 65vh;
-    right: 0px;
-    top: 30px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 651px) and (max-width: 912px) {
+  .container__trofeosModal {
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
   .container__trofeosModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 80vh;
-    top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
-    padding: 25px p;
-    padding-color: beige;
-    padding-font-size: 25px;
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 @media (min-width: 1205px) {
   .container__trofeosModal {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    background: linear-gradient(to top, rgba(27, 27, 26, 0.5), rgb(1, 1, 14)), url(./imagenes/Galeria/carlos/ca2.jpg);
+    background-size: cover;
     width: 100%;
-    height: 80vh;
-    top: 10px;
-    background: linear-gradient(to top, rgba(27, 27, 26, 0.8), rgb(46, 45, 45));
-    padding: 25px p;
-    padding-color: rgb(39, 39, 38);
-    padding-font-size: 25px;
+    height: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
   }
 }
 
-@media (max-width: 319px) {
-  .subcontainer__inicio {
-    justify-content: space-between;
-    position: relative;
-    width: 90%;
-    height: 55vh;
-    right: -16px;
-    top: 35px;
-    background-color: rgb(102, 81, 10);
-  }
-}
-@media (min-width: 320px) and (max-width: 414px) and (min-height: 320px) {
-  .subcontainer__inicio {
-    justify-content: space-between;
-    position: relative;
-    width: 80%;
-    height: 55vh;
-    right: -42px;
-    top: 35px;
-    background-color: rgb(102, 81, 10);
-  }
-}
-@media (min-width: 415px) and (max-width: 912px) {
-  .subcontainer__inicio {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 80%;
-    height: 60vh;
-    right: -10px;
-    top: 20px;
-    background-color: rgb(102, 81, 10);
-  }
-}
-@media (min-width: 913px) and (max-width: 1204px) {
-  .subcontainer__inicio {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 45%;
-    right: -300px;
-    height: 75vh;
-    top: 20px;
-    background-color: rgb(102, 81, 10);
-  }
-}
-@media (min-width: 1205px) {
-  .subcontainer__inicio {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 45%;
-    right: -370px;
-    height: 75vh;
-    top: 20px;
-    background-color: rgb(102, 81, 10);
-  }
-}
-
+/*.subcontainer__inicio{
+        @media(max-width: 319px){
+        //border: 1px solid red;
+        //display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 90%;
+        height: 55vh;
+        right: -16px;
+        top: 35px;
+        background-color: rgb(102, 81, 10);
+        }
+        @media(min-width: 320px) and (max-width: 414px) and (min-height: 320px) {
+            //border: 1px solid red;
+            //display: flex;
+            justify-content: space-between;
+            position: relative;
+            width: 80%;
+            height: 55vh;
+            right: -42px;
+            top: 35px;
+            background-color: rgb(102, 81, 10);
+        }
+        @media(min-width: 415px) and (max-width: 912px){
+            //border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            width: 80%;
+            height: 60vh;
+            right: -10px;
+            top: 20px;
+            background-color: rgb(102, 81, 10);
+        }
+        @media(min-width: 913px) and (max-width: 1204px){
+            //border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            width: 45%;
+            right: -300px;
+            height: 75vh;
+            top: 20px;
+            background-color: rgb(102, 81, 10);
+        }
+        @media(min-width: 1205px){
+            //border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            width: 45%;
+            right: -370px;
+            height: 75vh;
+            top: 20px;
+            background-color: rgb(102, 81, 10);
+        }
+}*/
 @media (min-width: 320px) {
   .dropdown-menu {
     background-color: rgb(27, 26, 26);
@@ -2276,7 +2278,7 @@ header {
     font-size: 18px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(34, 34, 33, 0.884);
+    background: rgba(119, 119, 115, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2291,7 +2293,7 @@ header {
     font-size: 18px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(34, 34, 33, 0.884);
+    background: rgba(119, 119, 115, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2306,7 +2308,7 @@ header {
     font-size: 18px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(34, 34, 33, 0.884);
+    background: rgba(119, 119, 115, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2321,7 +2323,7 @@ header {
     font-size: 12px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(34, 34, 33, 0.884);
+    background: rgba(119, 119, 115, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2335,8 +2337,7 @@ header {
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
-    color: rgb(14, 14, 13);
-    background: rgba(34, 34, 33, 0.884);
+    background: rgba(119, 119, 115, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2378,31 +2379,31 @@ header {
 
 @media (max-width: 319px) {
   .enviarL:hover {
-    background: rgb(86, 87, 72);
+    background: rgb(205, 209, 155);
     transform: scale(1.2);
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
   .enviarL:hover {
-    background: rgb(86, 87, 72);
+    background: rgb(205, 209, 155);
     transform: scale(1.2);
   }
 }
 @media (min-width: 415px) and (max-width: 912px) {
   .enviarL:hover {
-    background: rgb(86, 87, 72);
+    background: rgb(205, 209, 155);
     transform: scale(1.2);
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
   .enviarL:hover {
-    background: rgb(86, 87, 72);
+    background: rgb(205, 209, 155);
     transform: scale(1.2);
   }
 }
 @media (min-width: 1205px) {
   .enviarL:hover {
-    background: rgb(86, 87, 72);
+    background: rgb(205, 209, 155);
     transform: scale(1.2);
   }
 }
@@ -2435,21 +2436,21 @@ header {
 }
 
 @media (max-width: 319px) {
-  .esculturas {
+  img {
     gap: 10px;
     margin: auto;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
-  .esculturas {
+  img {
     gap: 10px;
     margin: auto;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 415px) and (max-width: 650px) {
-  .esculturas {
+  img {
     width: 85%;
     height: 60%;
     margin: 20px 8px 20px 10px;
@@ -2457,21 +2458,21 @@ header {
   }
 }
 @media (min-width: 651px) and (max-width: 912px) {
-  .esculturas {
+  img {
     gap: 10px;
     margin: 20px 20px 20px 5px;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
-  .esculturas {
+  img {
     gap: 10px;
     margin: 20px 8px 20px 10px;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 1205px) {
-  .esculturas {
+  img {
     gap: 10px;
     margin: 20px 8px 20px 10px;
     box-shadow: 0 0 15px gray;
@@ -2480,6 +2481,8 @@ header {
 
 .tituloesculturas {
   text-align: center;
+  font: oblique bold 220% cursive;
+  color: rgb(241, 237, 176);
 }
 
 @media (max-width: 319px) {
@@ -2494,6 +2497,13 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
+  .imagenescultura :hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+  }
 }
 @media (min-width: 320px) and (max-width: 414px) {
   .imagenescultura {
@@ -2506,6 +2516,13 @@ header {
     box-sizing: border-box;
     border: 2px solid #292828;
     border-radius: 10px;
+  }
+  .imagenescultura :hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.2);
+    transition: all 0.5s ease;
   }
 }
 @media (min-width: 415px) and (max-width: 650px) {
@@ -2520,6 +2537,13 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
+  .imagenescultura :hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+  }
 }
 @media (min-width: 651px) and (max-width: 912px) {
   .imagenescultura {
@@ -2532,6 +2556,13 @@ header {
     box-sizing: border-box;
     border: 2px solid #292828;
     border-radius: 10px;
+  }
+  .imagenescultura :hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.2);
+    transition: all 0.5s ease;
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -2546,6 +2577,13 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
+  .imagenescultura :hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+  }
 }
 @media (min-width: 1205px) {
   .imagenescultura {
@@ -2559,8 +2597,140 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
+  .imagenescultura :hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+  }
 }
 
+.tierraviva, .cobra {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.7s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.slideshow {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  color: #292828;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.slideshow img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.bi-bi-x-circle-fill {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  font-size: 35px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: azure;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  transition: all 0.2s ease;
+}
+.bi-bi-x-circle-fill :hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.botones {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 70px;
+  background-color: rgba(95, 90, 90, 0.7);
+  color: azure;
+  width: 70px;
+  height: 70px;
+  border-radius: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.botones :hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.atras {
+  left: 20px;
+}
+
+.adelante {
+  right: 20px;
+}
+
+.bi {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 800px) {
+  .botones {
+    font-size: 55px;
+  }
+  .atras {
+    left: 5px;
+  }
+  .adelante {
+    right: 5px;
+  }
+  .slideshow {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 319px) {
+  .botones {
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+  }
+  .atras {
+    left: 5px;
+  }
+  .adelante {
+    right: 5px;
+  }
+  .slideshow {
+    width: 98%;
+  }
+  .bi-bi-x-circle-fill {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    font-size: 35px;
+  }
+}
 * {
   padding: 0px;
   margin: 0px;

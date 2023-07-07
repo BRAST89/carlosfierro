@@ -39,21 +39,21 @@
     }
 
     &__esculturasModal{
-        @include mixins.containerEsculturas;
+        @include mixins.containerTrofeos;
     }
 
 
     &__grabadosModal{
-        @include mixins.containerinicio;
+        @include mixins.containerTrofeos;
     }
 
     &__trofeosModal{
-        @include mixins.containerinicio;
+        @include mixins.containerTrofeos;
     }
 
 }  
 
-.subcontainer__inicio{
+/*.subcontainer__inicio{
         @media(max-width: 319px){
         //border: 1px solid red;
         //display: flex;
@@ -109,7 +109,7 @@
             top: 20px;
             background-color: rgb(102, 81, 10);
         }
-}
+}*/
     
 
     

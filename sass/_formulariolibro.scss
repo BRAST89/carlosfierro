@@ -226,7 +226,7 @@ form label, form legend{
         font-size: 18px;
         font-weight: bold;
         color:rgb(14, 14, 13);
-        background: rgba(34, 34, 33, 0.884);
+        background: rgba(119, 119, 115, 0.884);
         border:none;
         border-radius: 5px;
         transition: 1s all;
@@ -239,7 +239,7 @@ form label, form legend{
         font-size: 18px;
         font-weight: bold;
         color:rgb(14, 14, 13);
-        background: rgba(34, 34, 33, 0.884);
+        background: rgba(119, 119, 115, 0.884);
         border:none;
         border-radius: 5px;
         transition: 1s all;
@@ -252,7 +252,7 @@ form label, form legend{
         font-size: 18px;
         font-weight: bold;
         color:rgb(14, 14, 13);
-        background: rgba(34, 34, 33, 0.884);
+        background: rgba(119, 119, 115, 0.884);
         border:none;
         border-radius: 5px;
         transition: 1s all;
@@ -266,7 +266,7 @@ form label, form legend{
         font-size: 12px;
         font-weight: bold;
         color:rgb(14, 14, 13);
-        background: rgba(34, 34, 33, 0.884);
+        background: rgba(119, 119, 115, 0.884);
         border:none;
         border-radius: 5px;
         transition: 1s all;
@@ -278,8 +278,8 @@ form label, form legend{
         padding: 15px 0;
         font-size: 18px;
         font-weight: bold;
-        color:rgb(14, 14, 13);
-        background: rgba(34, 34, 33, 0.884);
+        //color:rgb(14, 14, 13);
+        background: rgba(119, 119, 115, 0.884);
         border:none;
         border-radius: 5px;
         transition: 1s all;
@@ -315,24 +315,24 @@ form label, form legend{
 
 .enviarL:hover{
     @media(max-width: 319px){
-        background: rgb(86, 87, 72);
+        background: rgb(205, 209, 155);
         transform: scale(1.2);
     } 
     @media(min-width: 320px) and (max-width: 414px){
-        background: rgb(86, 87, 72);
+        background: rgb(205, 209, 155);
         transform: scale(1.2);
     }
     @media(min-width: 415px) and (max-width: 912px){
-        background: rgb(86, 87, 72);
+        background: rgb(205, 209, 155);
         transform: scale(1.2);
     }
     
     @media(min-width: 913px) and (max-width: 1204px){
-        background: rgb(86, 87, 72);
+        background: rgb(205, 209, 155);
         transform: scale(1.2);
     }
     @media(min-width: 1205px){
-        background: rgb(86, 87, 72);
+        background: rgb(205, 209, 155);
         transform: scale(1.2);
     }
 }

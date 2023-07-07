@@ -1,60 +1,62 @@
 // imagenes inicio
 .imageDestokp{
         @media(max-width: 319px){
-            display: flex;
-            justify-content: center; 
-            position: relative;
-            width: 95%;
-            height: 95%;
-            right: -6px;
-            top: 10px;
+            display: inline-block;
+            width: 80%; 
+            height: 90%;
+            margin: auto;
+            gap: 10px;
+            margin: auto;
+            box-shadow: 0 0 15px rgb(211, 181, 14);
        
         }
         @media(min-width: 320px) and (max-width: 414px){
-            display: flex;
-            justify-content: center; 
-            position: relative;
-            width: 94%;
-            height: 95%;
-            right: -8px;
-            top: 10px;
+            display: inline-block;
+            width: 80%; 
+            height: 90%;
+            margin: auto;
+            gap: 10px;
+            margin: auto;
+            box-shadow: 0 0 15px rgb(211, 181, 14);
            
         }
         @media(min-width: 415px) and (max-width: 540px){
-            display: flex;
-            justify-content: space-between; 
-            position: relative;
-            width: 95%; 
-            height: 57vh;
-            right: 0px;
-            top: 10px;
+            display: inline-block;
+            width: 65%; 
+            height: 90%;
+            margin: auto;
+            gap: 10px;
+            margin: auto;
+            box-shadow: 0 0 15px rgb(211, 181, 14);
         }
         @media(min-width: 541px) and (max-width: 912px){
-            display: flex;
-            justify-content: space-between; 
-            position: relative;
-            width: 95%; 
-            height: 58vh;
-            right: 0px;
-            top: 10px;
+            display: inline-block;
+            width: 55%; 
+            height: 90%;
+            margin: auto;
+            gap: 10px;
+            margin: auto;
+            box-shadow: 0 0 15px rgb(211, 181, 14);
         }
         @media(min-width: 913px) and (max-width: 1204px){
-            display: flex;
-            justify-content: space-between; 
-            width: 95%; 
-            height: 72vh;
-            position: relative;
-            right: 0px;
-            top: 10px;
+            display: inline-block;
+            width: 35%; 
+            height: 90%;
+            margin: auto;
+            gap: 10px;
+            margin: auto;
+            box-shadow: 0 0 15px rgb(211, 181, 14);
         }
         @media(min-width: 1205px){
-            display: flex;
-            justify-content: space-between; 
-            width: 95%; 
-            height: 72vh;
-            position: relative;
-            right: 0px;
-            top: 10px;
+            //display: flex;
+            //justify-content: space-between; 
+            display: inline-block;
+            width: 35%; 
+            height: 90%;
+            margin: auto;
+            gap: 10px;
+            margin: auto;
+            box-shadow: 0 0 15px rgb(211, 181, 14);
         }
     }
     
