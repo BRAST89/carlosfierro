@@ -169,11 +169,11 @@
     display: none;
 }
 //grabados
-.chapaacero, .flor, .marco, .peon{
+.chapaacero, .flor, .marco, .peon, .placa{
     display: none;
 }
 
-.overlay, .overlaytrofeos{
+.overlay, .overlayg{
     position: fixed;
     left: 0;
     top: 0;
@@ -189,7 +189,7 @@
     opacity: 0;
 }
 
-.slideshow, .slideshowtrofeos{
+.slideshow, .slideshowg{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 1);
@@ -198,12 +198,12 @@
     display: flex;
     justify-content: center;
 }
-.slideshow img, .slideshowtrofeos img{
+.slideshow img, .slideshowg img{
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
-.bi-bi-x-circle-fill, .bi-bi-x-circle-filltrofeos{
+.bi-bi-x-circle-fill, .bi-bi-x-circle-fillg{
     position: absolute;
     top: 35px;
     right: 35px;
@@ -227,7 +227,7 @@
 
 
 
-.botones, .botonestrofeos{
+.botones, .botonesg{
     //border: 1px solid red;
     position: absolute;
     top: 50%;
@@ -249,46 +249,46 @@
     
     
 }
-.atras, .atrastrofeos{
+.atras, .atrasg{
     left: 20px;
 
 }
-.adelante, .adelantetrofeos{
+.adelante, .adelanteg{
     right: 20px;
 }
-.bi, .bitrofeos{
+.bi, .big{
     pointer-events: none;
 }
 @media screen and (max-width: 800px){
-    .botones, .botonestrofeos{
+    .botones, .botonesg{
         font-size: 55px;
     }
-    .atras, .atrastrofeos{
+    .atras, .atrasg{
         left: 5px;
     }
-    .adelante, .adelantetrofeos{
+    .adelante, .adelanteg{
         right: 5px;
     }
-    .slideshow, .slideshowtrofeos{
+    .slideshow, .slideshowg{
         width: 98%;
     }
 }
 @media screen and (max-width: 319px){
-    .botones, .botonestrofeos{
+    .botones, .botonesg{
         font-size: 15px;
         width: 15px;
         height: 15px;
     }
-    .atras, .atrastrofeos{
+    .atras, .atrasg{
         left: 5px;
     }
-    .adelante, .adelantetrofeos{
+    .adelante, .adelanteg{
         right: 5px;
     }
-    .slideshow, .slideshowtrofeos{
+    .slideshow, .slideshowg{
         width: 98%;
     }
-    .bi-bi-x-circle-fill, .bi-bi-x-circle-filltrofeos{
+    .bi-bi-x-circle-fill, .bi-bi-x-circle-fillg{
         position: absolute;
         top: 25px;
         right: 15px;

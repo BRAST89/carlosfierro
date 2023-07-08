@@ -401,7 +401,7 @@ document.addEventListener('DOMContentLoaded',function esculturasGaleria(){
     let containeresculturas = document.querySelectorAll('.imagenescultura img')
     const img_slideshow = document.querySelector('.slideshow img')
 
-    contenedor.addEventListener('click', function(event){
+    contenedor.addEventListener('click', function esculturasGaleria(event){
         let atras = contenedor.querySelector('.atras'),
             adelante = contenedor.querySelector('.adelante'),
             img = contenedor.querySelector('img'),
@@ -495,15 +495,15 @@ document.addEventListener('DOMContentLoaded',function trofeosGaleria(){
         {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso8.jpg'}
     ]
     let contador = 0
-    const contenedor = document.querySelector('.slideshowtrofeos')
-    const overlay = document.querySelector('.overlaytrofeos')
+    const contenedortrofeos = document.querySelector('.Trofeos slideshow')
+    const overlaytrofeos = document.querySelector('.Trofeos overlay')
     let containertrofeos = document.querySelectorAll('.imagentrofeos img')
-    const img_slideshow = document.querySelector('.slideshowtrofeos img')
+    const img_slideshowtrofeos = document.querySelector('.Trofeos slideshow img')
 
-    contenedor.addEventListener('click', function(event){
-        let atras = contenedor.querySelector('.atrastrofeos'),
-            adelante = contenedor.querySelector('.adelantetrofeos'),
-            img = contenedor.querySelector('img'),
+    contenedortrofeos.addEventListener('click', function trofeosGaleria(event){
+        let atras = contenedortrofeos.querySelector('.Trofeos atras'),
+            adelante = contenedortrofeos.querySelector('.Trofeos adelante'),
+            img = contenedortrofeos.querySelector('img'),
             tgt = event.target
         if (tgt == atras){
             if (contador > 0) {
@@ -528,16 +528,16 @@ document.addEventListener('DOMContentLoaded',function trofeosGaleria(){
     Array.from(containertrofeos).forEach(img =>{
         img.addEventListener('click', event =>{
             const imagen_seleccionada = +event.target.dataset.imgMostrar
-            img_slideshow.src = imagenestrofeos[imagen_seleccionada].img
+            img_slideshowtrofeos.src = imagenestrofeos[imagen_seleccionada].img
             contador = imagen_seleccionada
-            overlay.style.opacity = 1
-            overlay.style.visibility = 'visible'
+            overlaytrofeos.style.opacity = 1
+            overlaytrofeos.style.visibility = 'visible'
         })
     })
 
-    document.querySelector('.bi-bi-x-circle-filltrofeos').addEventListener('click',() =>{
-        overlay.style.opacity = 0
-        overlay.style.visibility = 'hidden'
+    document.querySelector('.Trofeos bi-bi-x-circle-fill').addEventListener('click',() =>{
+        overlaytrofeos.style.opacity = 0
+        overlaytrofeos.style.visibility = 'hidden'
     })
 })
 
@@ -562,17 +562,29 @@ document.addEventListener('DOMContentLoaded',function grabadosGaleria(){
         {img:'imagenes/Galeria/grabados/el peon/per.jpg'},
         {img:'imagenes/Galeria/grabados/el peon/pe1.jpg'},
 
-        {img:'imagenes/Galeria/grabados/sin titulo2/sinti2.jpg'}
+        {img:'imagenes/Galeria/grabados/sin titulo2/sinti2.jpg'},
+
+        {img:'imagenes/Galeria/grabados/sin titulo3/sinti3.jpg'},
+
+        {img:'imagenes/Galeria/grabados/chapa alumino acada/ch1.jpg'},
+
+        {img:'imagenes/Galeria/grabados/sin titulo4/sinti4.jpg'},
+
+        {img:'imagenes/Galeria/grabados/encargo para regalo/encargo para regalo.jpg'},
+
+        {img:'imagenes/Galeria/grabados/homenaje manuel/home1.jpg'},
+
+        {img:'imagenes/Galeria/grabados/regalo alumnos a profesor/regal1.jpg'}
     ]
     let contador = 0
-    const contenedorgrabados = document.querySelector('.slideshow')
-    const overlaygrabados = document.querySelector('.overlay')
+    const contenedorgrabados = document.querySelector('.slideshowg')
+    const overlaygrabados = document.querySelector('.overlayg')
     let containergrabados = document.querySelectorAll('.imagengrabados img')
-    const img_slideshowgrabados = document.querySelector('.slideshow img')
+    const img_slideshowgrabados = document.querySelector('.slideshowg img')
 
     contenedorgrabados.addEventListener('click', function grabadosGaleria(event){
-        let atras = contenedorgrabados.querySelector('.atras'),
-            adelante = contenedorgrabados.querySelector('.adelante'),
+        let atras = contenedorgrabados.querySelector('.atrasg'),
+            adelante = contenedorgrabados.querySelector('.adelanteg'),
             img = contenedorgrabados.querySelector('img'),
             tgt = event.target
         if (tgt == atras){
@@ -605,7 +617,7 @@ document.addEventListener('DOMContentLoaded',function grabadosGaleria(){
         })
     })
 
-    document.querySelector('.bi-bi-x-circle-fill').addEventListener('click',() =>{
+    document.querySelector('.bi-bi-x-circle-fillg').addEventListener('click',() =>{
         overlaygrabados.style.opacity = 0
         overlaygrabados.style.visibility = 'hidden'
     })
