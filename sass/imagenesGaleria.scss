@@ -1,4 +1,4 @@
-.esculturas, .trofeos{
+.esculturas, .trofeos, .grabados{
     
     @media(max-width: 319px){
         gap: 10px;
@@ -38,14 +38,14 @@
         box-shadow: 0 0 15px gray;
     }
 }
-.tituloesculturas, .titulotrofeos{
+.tituloesculturas, .titulotrofeos, .titulograbados{
     text-align: center;
     font: oblique bold 220% cursive;
     color: rgb(241, 237, 176);
 }
 
 
-.imagenescultura, .imagentrofeos{
+.imagenescultura, .imagentrofeos, .imagengrabados{
     @media(max-width: 319px){
         display: inline-block;
         text-align: center;
@@ -168,7 +168,10 @@
 .bombos, .locomotora, .futbol, .trofeost, .mapfre, .regalo, .karaoke, .mundoagua{
     display: none;
 }
-
+//grabados
+.chapaacero, .flor, .marco, .peon{
+    display: none;
+}
 
 .overlay, .overlaytrofeos{
     position: fixed;

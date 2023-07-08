@@ -2437,21 +2437,21 @@ header {
 }
 
 @media (max-width: 319px) {
-  .esculturas, .trofeos {
+  .esculturas, .trofeos, .grabados {
     gap: 10px;
     margin: auto;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
-  .esculturas, .trofeos {
+  .esculturas, .trofeos, .grabados {
     gap: 10px;
     margin: auto;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 415px) and (max-width: 650px) {
-  .esculturas, .trofeos {
+  .esculturas, .trofeos, .grabados {
     width: 85%;
     height: 60%;
     margin: 20px 8px 20px 10px;
@@ -2459,35 +2459,35 @@ header {
   }
 }
 @media (min-width: 651px) and (max-width: 912px) {
-  .esculturas, .trofeos {
+  .esculturas, .trofeos, .grabados {
     gap: 10px;
     margin: 20px 20px 20px 5px;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
-  .esculturas, .trofeos {
+  .esculturas, .trofeos, .grabados {
     gap: 10px;
     margin: 20px 8px 20px 10px;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 1205px) {
-  .esculturas, .trofeos {
+  .esculturas, .trofeos, .grabados {
     gap: 10px;
     margin: 20px 8px 20px 10px;
     box-shadow: 0 0 15px gray;
   }
 }
 
-.tituloesculturas, .titulotrofeos {
+.tituloesculturas, .titulotrofeos, .titulograbados {
   text-align: center;
   font: oblique bold 220% cursive;
   color: rgb(241, 237, 176);
 }
 
 @media (max-width: 319px) {
-  .imagenescultura, .imagentrofeos {
+  .imagenescultura, .imagentrofeos, .imagengrabados {
     display: inline-block;
     text-align: center;
     width: 90%;
@@ -2498,7 +2498,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover, .imagentrofeos :hover {
+  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2507,7 +2507,7 @@ header {
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
-  .imagenescultura, .imagentrofeos {
+  .imagenescultura, .imagentrofeos, .imagengrabados {
     display: inline-block;
     text-align: center;
     width: 90%;
@@ -2518,7 +2518,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover, .imagentrofeos :hover {
+  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2527,7 +2527,7 @@ header {
   }
 }
 @media (min-width: 415px) and (max-width: 650px) {
-  .imagenescultura, .imagentrofeos {
+  .imagenescultura, .imagentrofeos, .imagengrabados {
     display: inline-block;
     text-align: center;
     width: 45%;
@@ -2538,7 +2538,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover, .imagentrofeos :hover {
+  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2547,7 +2547,7 @@ header {
   }
 }
 @media (min-width: 651px) and (max-width: 912px) {
-  .imagenescultura, .imagentrofeos {
+  .imagenescultura, .imagentrofeos, .imagengrabados {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -2558,7 +2558,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover, .imagentrofeos :hover {
+  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2567,7 +2567,7 @@ header {
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
-  .imagenescultura, .imagentrofeos {
+  .imagenescultura, .imagentrofeos, .imagengrabados {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -2578,7 +2578,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover, .imagentrofeos :hover {
+  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2587,7 +2587,7 @@ header {
   }
 }
 @media (min-width: 1205px) {
-  .imagenescultura, .imagentrofeos {
+  .imagenescultura, .imagentrofeos, .imagengrabados {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -2598,7 +2598,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover, .imagentrofeos :hover {
+  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2612,6 +2612,10 @@ header {
 }
 
 .bombos, .locomotora, .futbol, .trofeost, .mapfre, .regalo, .karaoke, .mundoagua {
+  display: none;
+}
+
+.chapaacero, .flor, .marco, .peon {
   display: none;
 }
 

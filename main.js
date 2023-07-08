@@ -541,5 +541,74 @@ document.addEventListener('DOMContentLoaded',function trofeosGaleria(){
     })
 })
 
+document.addEventListener('DOMContentLoaded',function grabadosGaleria(){
+    
+    let imagenesgrabados = [
+        {img:'imagenes/Galeria/grabados/sin titulo/sin1.jpg'},
 
+        {img:'imagenes/Galeria/grabados/marta/marta.jpg'},
+
+        {img:'imagenes/Galeria/grabados/grabado florarl/gr5.jpg'},
+        {img:'imagenes/Galeria/grabados/grabado florarl/gr1.jpg'},
+        {img:'imagenes/Galeria/grabados/grabado florarl/gr2.jpg'},
+        {img:'imagenes/Galeria/grabados/grabado florarl/gr3.jpg'},
+        {img:'imagenes/Galeria/grabados/grabado florarl/gr4.jpg'},
+
+        {img:'imagenes/Galeria/grabados/marco espejo/ma1.jpg'},
+        {img:'imagenes/Galeria/grabados/marco espejo/ma2.jpg'},
+        {img:'imagenes/Galeria/grabados/marco espejo/ma3.jpg'},
+        {img:'imagenes/Galeria/grabados/marco espejo/ma4.jpg'},
+
+        {img:'imagenes/Galeria/grabados/el peon/per.jpg'},
+        {img:'imagenes/Galeria/grabados/el peon/pe1.jpg'},
+
+        {img:'imagenes/Galeria/grabados/sin titulo2/sinti2.jpg'}
+    ]
+    let contador = 0
+    const contenedorgrabados = document.querySelector('.slideshow')
+    const overlaygrabados = document.querySelector('.overlay')
+    let containergrabados = document.querySelectorAll('.imagengrabados img')
+    const img_slideshowgrabados = document.querySelector('.slideshow img')
+
+    contenedorgrabados.addEventListener('click', function grabadosGaleria(event){
+        let atras = contenedorgrabados.querySelector('.atras'),
+            adelante = contenedorgrabados.querySelector('.adelante'),
+            img = contenedorgrabados.querySelector('img'),
+            tgt = event.target
+        if (tgt == atras){
+            if (contador > 0) {
+                img.src = imagenesgrabados[contador - 1].img
+                contador--
+            } else {
+                img.src = imagenesgrabados[imagenesgrabados.length - 1].img        
+                contador = imagenesgrabados.length - 1
+            }
+        }else if (tgt == adelante){
+            if (contador < imagenesgrabados.length - 1){
+                    img.src = imagenesgrabados[contador + 1].img
+                    contador++
+            }else{
+                    img.src = imagenesgrabados[0].img
+                    contador = 0
+            }
+        }
+                
+    })
+
+    Array.from(containergrabados).forEach(img =>{
+        img.addEventListener('click', event =>{
+            const imagen_seleccionada = +event.target.dataset.imgMostrar
+            img_slideshowgrabados.src = imagenesgrabados[imagen_seleccionada].img
+            contador = imagen_seleccionada
+            overlaygrabados.style.opacity = 1
+            overlaygrabados.style.visibility = 'visible'
+        })
+    })
+
+    document.querySelector('.bi-bi-x-circle-fill').addEventListener('click',() =>{
+        overlaygrabados.style.opacity = 0
+        overlaygrabados.style.visibility = 'hidden'
+    })
+
+})
 
