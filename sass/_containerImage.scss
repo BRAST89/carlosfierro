@@ -168,12 +168,12 @@
         top: 10px;
     }
     @media(min-width: 1115px){
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 99%;
-    right: -8px;
-    height: 580px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 99%;
+        right: -8px;
+        height: 580px;
     }
     @media(min-width: 1225px){
         display: flex;
@@ -182,7 +182,7 @@
         width: 99%;
         right: -8px;
         height: 580px;
-        
+
     }
 
 }

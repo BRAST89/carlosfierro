@@ -2436,21 +2436,21 @@ header {
 }
 
 @media (max-width: 319px) {
-  img {
+  .esculturas {
     gap: 10px;
     margin: auto;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
-  img {
+  .esculturas {
     gap: 10px;
     margin: auto;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 415px) and (max-width: 650px) {
-  img {
+  .esculturas {
     width: 85%;
     height: 60%;
     margin: 20px 8px 20px 10px;
@@ -2458,21 +2458,21 @@ header {
   }
 }
 @media (min-width: 651px) and (max-width: 912px) {
-  img {
+  .esculturas {
     gap: 10px;
     margin: 20px 20px 20px 5px;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
-  img {
+  .esculturas {
     gap: 10px;
     margin: 20px 8px 20px 10px;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 1205px) {
-  img {
+  .esculturas {
     gap: 10px;
     margin: 20px 8px 20px 10px;
     box-shadow: 0 0 15px gray;
@@ -2606,7 +2606,7 @@ header {
   }
 }
 
-.tierraviva, .cobra {
+.tierraviva, .cobra, .libertad, .tormenta, .union, .camino, .tiempos, .desayuno {
   display: none;
 }
 

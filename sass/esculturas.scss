@@ -1,5 +1,4 @@
-img{
-    //border: solid 1px red;
+.esculturas{
     
     @media(max-width: 319px){
         gap: 10px;
@@ -161,7 +160,7 @@ img{
     }
     
 }
-.tierraviva, .cobra{
+.tierraviva, .cobra, .libertad, .tormenta, .union, .camino, .tiempos, .desayuno{
     display: none;
 }
 
