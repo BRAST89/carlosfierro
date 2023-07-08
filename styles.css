@@ -2619,7 +2619,7 @@ header {
   display: none;
 }
 
-.overlay, .overlayg {
+.overlay, .overlayg, .overlayt {
   position: fixed;
   left: 0;
   top: 0;
@@ -2635,7 +2635,7 @@ header {
   opacity: 0;
 }
 
-.slideshow, .slideshowg {
+.slideshow, .slideshowg, .slideshowt {
   width: 100%;
   height: 100%;
   background-color: rgb(0, 0, 0);
@@ -2645,13 +2645,13 @@ header {
   justify-content: center;
 }
 
-.slideshow img, .slideshowg img {
+.slideshow img, .slideshowg img, .slideshowt img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
 
-.bi-bi-x-circle-fill, .bi-bi-x-circle-fillg {
+.bi-bi-x-circle-fill, .bi-bi-x-circle-fillg, .bi-bi-x-circle-fillt {
   position: absolute;
   top: 35px;
   right: 35px;
@@ -2667,12 +2667,12 @@ header {
   padding: 2px;
   transition: all 0.2s ease;
 }
-.bi-bi-x-circle-fill :hover, .bi-bi-x-circle-fillg :hover {
+.bi-bi-x-circle-fill :hover, .bi-bi-x-circle-fillg :hover, .bi-bi-x-circle-fillt :hover {
   transform: scale(1.05);
   cursor: pointer;
 }
 
-.botones, .botonesg {
+.botones, .botonesg, .botonest {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -2687,53 +2687,53 @@ header {
   justify-content: center;
   cursor: pointer;
 }
-.botones :hover, .botonesg :hover {
+.botones :hover, .botonesg :hover, .botonest :hover {
   transform: scale(1.1);
   transition: all 0.2s ease;
 }
 
-.atras, .atrasg {
+.atras, .atrasg, .atrast {
   left: 20px;
 }
 
-.adelante, .adelanteg {
+.adelante, .adelanteg, .adelantet {
   right: 20px;
 }
 
-.bi, .big {
+.bi, .big, .bit {
   pointer-events: none;
 }
 
 @media screen and (max-width: 800px) {
-  .botones, .botonesg {
+  .botones, .botonesg, .botonest {
     font-size: 55px;
   }
-  .atras, .atrasg {
+  .atras, .atrasg, .atrast {
     left: 5px;
   }
-  .adelante, .adelanteg {
+  .adelante, .adelanteg, .adelantet {
     right: 5px;
   }
-  .slideshow, .slideshowg {
+  .slideshow, .slideshowg, .slideshowt {
     width: 98%;
   }
 }
 @media screen and (max-width: 319px) {
-  .botones, .botonesg {
+  .botones, .botonesg, .botonest {
     font-size: 15px;
     width: 15px;
     height: 15px;
   }
-  .atras, .atrasg {
+  .atras, .atrasg, .atrast {
     left: 5px;
   }
-  .adelante, .adelanteg {
+  .adelante, .adelanteg, .adelantet {
     right: 5px;
   }
-  .slideshow, .slideshowg {
+  .slideshow, .slideshowg, .slideshowt {
     width: 98%;
   }
-  .bi-bi-x-circle-fill, .bi-bi-x-circle-fillg {
+  .bi-bi-x-circle-fill, .bi-bi-x-circle-fillg, .bi-bi-x-circle-fillt {
     position: absolute;
     top: 25px;
     right: 15px;

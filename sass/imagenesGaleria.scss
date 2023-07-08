@@ -173,7 +173,7 @@
     display: none;
 }
 
-.overlay, .overlayg{
+.overlay, .overlayg, .overlayt{
     position: fixed;
     left: 0;
     top: 0;
@@ -189,7 +189,7 @@
     opacity: 0;
 }
 
-.slideshow, .slideshowg{
+.slideshow, .slideshowg, .slideshowt{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 1);
@@ -198,12 +198,12 @@
     display: flex;
     justify-content: center;
 }
-.slideshow img, .slideshowg img{
+.slideshow img, .slideshowg img, .slideshowt img{
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
-.bi-bi-x-circle-fill, .bi-bi-x-circle-fillg{
+.bi-bi-x-circle-fill, .bi-bi-x-circle-fillg, .bi-bi-x-circle-fillt{
     position: absolute;
     top: 35px;
     right: 35px;
@@ -227,7 +227,7 @@
 
 
 
-.botones, .botonesg{
+.botones, .botonesg, .botonest{
     //border: 1px solid red;
     position: absolute;
     top: 50%;
@@ -249,46 +249,46 @@
     
     
 }
-.atras, .atrasg{
+.atras, .atrasg, .atrast{
     left: 20px;
 
 }
-.adelante, .adelanteg{
+.adelante, .adelanteg, .adelantet{
     right: 20px;
 }
-.bi, .big{
+.bi, .big, .bit{
     pointer-events: none;
 }
 @media screen and (max-width: 800px){
-    .botones, .botonesg{
+    .botones, .botonesg, .botonest{
         font-size: 55px;
     }
-    .atras, .atrasg{
+    .atras, .atrasg, .atrast{
         left: 5px;
     }
-    .adelante, .adelanteg{
+    .adelante, .adelanteg, .adelantet{
         right: 5px;
     }
-    .slideshow, .slideshowg{
+    .slideshow, .slideshowg, .slideshowt{
         width: 98%;
     }
 }
 @media screen and (max-width: 319px){
-    .botones, .botonesg{
+    .botones, .botonesg, .botonest{
         font-size: 15px;
         width: 15px;
         height: 15px;
     }
-    .atras, .atrasg{
+    .atras, .atrasg, .atrast{
         left: 5px;
     }
-    .adelante, .adelanteg{
+    .adelante, .adelanteg, .adelantet{
         right: 5px;
     }
-    .slideshow, .slideshowg{
+    .slideshow, .slideshowg, .slideshowt{
         width: 98%;
     }
-    .bi-bi-x-circle-fill, .bi-bi-x-circle-fillg{
+    .bi-bi-x-circle-fill, .bi-bi-x-circle-fillg, .bi-bi-x-circle-fillt{
         position: absolute;
         top: 25px;
         right: 15px;

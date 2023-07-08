@@ -495,14 +495,14 @@ document.addEventListener('DOMContentLoaded',function trofeosGaleria(){
         {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso8.jpg'}
     ]
     let contador = 0
-    const contenedortrofeos = document.querySelector('.Trofeos slideshow')
-    const overlaytrofeos = document.querySelector('.Trofeos overlay')
+    const contenedortrofeos = document.querySelector('.slideshowt')
+    const overlaytrofeos = document.querySelector('.overlayt')
     let containertrofeos = document.querySelectorAll('.imagentrofeos img')
-    const img_slideshowtrofeos = document.querySelector('.Trofeos slideshow img')
+    const img_slideshowtrofeos = document.querySelector('.slideshowt img')
 
     contenedortrofeos.addEventListener('click', function trofeosGaleria(event){
-        let atras = contenedortrofeos.querySelector('.Trofeos atras'),
-            adelante = contenedortrofeos.querySelector('.Trofeos adelante'),
+        let atras = contenedortrofeos.querySelector('.atrast'),
+            adelante = contenedortrofeos.querySelector('.adelantet'),
             img = contenedortrofeos.querySelector('img'),
             tgt = event.target
         if (tgt == atras){
@@ -535,7 +535,7 @@ document.addEventListener('DOMContentLoaded',function trofeosGaleria(){
         })
     })
 
-    document.querySelector('.Trofeos bi-bi-x-circle-fill').addEventListener('click',() =>{
+    document.querySelector('.bi-bi-x-circle-fillt').addEventListener('click',() =>{
         overlaytrofeos.style.opacity = 0
         overlaytrofeos.style.visibility = 'hidden'
     })
