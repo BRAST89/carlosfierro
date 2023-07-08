@@ -90,6 +90,29 @@ document.addEventListener('DOMContentLoaded',function (){
         {img: 'imagenes/Galeria/esculturas/desayuno/6des.jpg'},
         {img: 'imagenes/Galeria/esculturas/desayuno/7des.jpg'},
 
+        {img: 'imagenes/Galeria/esculturas/reloj del tiempo/1re.jpg'},
+        {img: 'imagenes/Galeria/esculturas/reloj del tiempo/2re.jpg'},
+        {img: 'imagenes/Galeria/esculturas/reloj del tiempo/3re.jpg'},
+        {img: 'imagenes/Galeria/esculturas/reloj del tiempo/4re.jpg'},
+        {img: 'imagenes/Galeria/esculturas/reloj del tiempo/5re.jpg'},
+        {img: 'imagenes/Galeria/esculturas/reloj del tiempo/6re.jpg'},
+        {img: 'imagenes/Galeria/esculturas/reloj del tiempo/7re.jpg'},
+        {img: 'imagenes/Galeria/esculturas/reloj del tiempo/8re.jpg'},
+
+        {img: 'imagenes/Galeria/esculturas/el acero inoxidable/1acer.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el acero inoxidable/2acer.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el acero inoxidable/3acer.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el acero inoxidable/4acer.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el acero inoxidable/5acer.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el acero inoxidable/6acer.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el acero inoxidable/7acer.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el acero inoxidable/8acer.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el acero inoxidable/9acer.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el acero inoxidable/10acer.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el acero inoxidable/11acer.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el acero inoxidable/12acer.jpg'}
+
+
     ]
     let contador = 0
     const contenedor = document.querySelector('.slideshow')
