@@ -194,7 +194,51 @@ document.addEventListener('DOMContentLoaded',function (){
         {img: 'imagenes/Galeria/esculturas/la punta del iceberg/10pun.jpg'},
         {img: 'imagenes/Galeria/esculturas/la punta del iceberg/11pun.jpg'},
         {img: 'imagenes/Galeria/esculturas/la punta del iceberg/12pun.jpg'},
-        {img: 'imagenes/Galeria/esculturas/la punta del iceberg/13pun.jpg'}
+        {img: 'imagenes/Galeria/esculturas/la punta del iceberg/13pun.jpg'},
+
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/1evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/2evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/3evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/4evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/5evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/6evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/7evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/8evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/9evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/10evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/11evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/12evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/13evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/14evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/15evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/16evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/17evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/18evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/19evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/20evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/21evu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/22evu.jpg'},
+
+        {img: 'imagenes/Galeria/esculturas/lazos de union/1laz.jpg'},
+        {img: 'imagenes/Galeria/esculturas/lazos de union/2laz.jpg'},
+        {img: 'imagenes/Galeria/esculturas/lazos de union/3laz.jpg'},
+        {img: 'imagenes/Galeria/esculturas/lazos de union/4laz.jpg'},
+        {img: 'imagenes/Galeria/esculturas/lazos de union/5laz.jpg'},
+        {img: 'imagenes/Galeria/esculturas/lazos de union/6laz.jpg'},
+        {img: 'imagenes/Galeria/esculturas/lazos de union/7laz.jpg'},
+
+        {img: 'imagenes/Galeria/esculturas/renacimiento/1ren.jpg'},
+        {img: 'imagenes/Galeria/esculturas/renacimiento/2ren.jpg'},
+        {img: 'imagenes/Galeria/esculturas/renacimiento/3ren.jpg'},
+        {img: 'imagenes/Galeria/esculturas/renacimiento/4ren.jpg'},
+        {img: 'imagenes/Galeria/esculturas/renacimiento/5ren.jpg'},
+        {img: 'imagenes/Galeria/esculturas/renacimiento/6ren.jpg'},
+        {img: 'imagenes/Galeria/esculturas/renacimiento/7ren.jpg'},
+        {img: 'imagenes/Galeria/esculturas/renacimiento/8ren.jpg'},
+        {img: 'imagenes/Galeria/esculturas/renacimiento/9ren.jpg'},
+        {img: 'imagenes/Galeria/esculturas/renacimiento/10ren.jpg'},
+        {img: 'imagenes/Galeria/esculturas/renacimiento/11ren.jpg'}
+        
 
     ]
     let contador = 0
