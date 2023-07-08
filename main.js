@@ -300,8 +300,99 @@ document.addEventListener('DOMContentLoaded',function (){
         {img:'imagenes/Galeria/esculturas/un sueño/su4.jpg'},
         {img:'imagenes/Galeria/esculturas/un sueño/su5.jpg'},
         {img:'imagenes/Galeria/esculturas/un sueño/su6.jpg'},
-        {img:'imagenes/Galeria/esculturas/un sueño/su7.jpg'}
+        {img:'imagenes/Galeria/esculturas/un sueño/su7.jpg'},
 
+        {img:'imagenes/Galeria/esculturas/homenaje dally/ho1.jpg'},
+        {img:'imagenes/Galeria/esculturas/homenaje dally/ho2.jpg'},
+        {img:'imagenes/Galeria/esculturas/homenaje dally/ho3.jpg'},
+        {img:'imagenes/Galeria/esculturas/homenaje dally/ho4.jpg'},
+        {img:'imagenes/Galeria/esculturas/homenaje dally/ho5.jpg'},
+        {img:'imagenes/Galeria/esculturas/homenaje dally/ho6.jpg'},
+        {img:'imagenes/Galeria/esculturas/homenaje dally/ho7.jpg'},
+        {img:'imagenes/Galeria/esculturas/homenaje dally/ho8.jpg'},
+        {img:'imagenes/Galeria/esculturas/homenaje dally/ho9.jpg'},
+        {img:'imagenes/Galeria/esculturas/homenaje dally/ho10.jpg'},
+
+        {img:'imagenes/Galeria/esculturas/calentamiento hormal/ca10.jpg'},
+        {img:'imagenes/Galeria/esculturas/calentamiento hormal/ca1.jpg'},
+        {img:'imagenes/Galeria/esculturas/calentamiento hormal/ca2.jpg'},
+        {img:'imagenes/Galeria/esculturas/calentamiento hormal/ca3.jpg'},
+        {img:'imagenes/Galeria/esculturas/calentamiento hormal/ca4.jpg'},
+        {img:'imagenes/Galeria/esculturas/calentamiento hormal/ca5.jpg'},
+        {img:'imagenes/Galeria/esculturas/calentamiento hormal/ca6.jpg'},
+        {img:'imagenes/Galeria/esculturas/calentamiento hormal/ca7.jpg'},
+        {img:'imagenes/Galeria/esculturas/calentamiento hormal/ca8.jpg'},
+        {img:'imagenes/Galeria/esculturas/calentamiento hormal/ca9.jpg'},
+
+        {img:'imagenes/Galeria/esculturas/mi corazon/co7.jpg'},
+        {img:'imagenes/Galeria/esculturas/mi corazon/co1.jpg'},
+        {img:'imagenes/Galeria/esculturas/mi corazon/co2.jpg'},
+        {img:'imagenes/Galeria/esculturas/mi corazon/co3.jpg'},
+        {img:'imagenes/Galeria/esculturas/mi corazon/co4.jpg'},
+        {img:'imagenes/Galeria/esculturas/mi corazon/co5.jpg'},
+        {img:'imagenes/Galeria/esculturas/mi corazon/co6.jpg'},
+
+        {img:'imagenes/Galeria/esculturas/herido/herido.jpg'},
+
+        {img:'imagenes/Galeria/esculturas/la rosa/ros2.jpg'},
+        {img:'imagenes/Galeria/esculturas/la rosa/ros1.jpg'},
+
+        {img:'imagenes/Galeria/esculturas/equilibrio/equi1.jpg'},
+        {img:'imagenes/Galeria/esculturas/equilibrio/equi2.jpg'},
+
+        {img:'imagenes/Galeria/esculturas/la mariposa/mariposa.jpg'},
+
+        {img:'imagenes/Galeria/esculturas/suministro/sumi2.jpg'},
+        {img:'imagenes/Galeria/esculturas/suministro/sumi1.jpg'},
+        {img:'imagenes/Galeria/esculturas/suministro/sumi3.jpg'},
+        {img:'imagenes/Galeria/esculturas/suministro/sumi4.jpg'},
+        {img:'imagenes/Galeria/esculturas/suministro/sumi5.jpg'},
+        {img:'imagenes/Galeria/esculturas/suministro/sumi6.jpg'},
+        {img:'imagenes/Galeria/esculturas/suministro/sumi7.jpg'},
+        {img:'imagenes/Galeria/esculturas/suministro/sumi8.jpg'},
+        {img:'imagenes/Galeria/esculturas/suministro/sumi9.jpg'},
+        {img:'imagenes/Galeria/esculturas/suministro/sumi10.jpg'},
+        {img:'imagenes/Galeria/esculturas/suministro/sumi11.jpg'},
+
+        {img:'imagenes/Galeria/esculturas/malos tiempos/mal8.jpg'},
+        {img:'imagenes/Galeria/esculturas/malos tiempos/mal1.jpg'},
+        {img:'imagenes/Galeria/esculturas/malos tiempos/mal2.jpg'},
+        {img:'imagenes/Galeria/esculturas/malos tiempos/mal3.jpg'},
+        {img:'imagenes/Galeria/esculturas/malos tiempos/mal4.jpg'},
+        {img:'imagenes/Galeria/esculturas/malos tiempos/mal5.jpg'},
+        {img:'imagenes/Galeria/esculturas/malos tiempos/mal6.jpg'},
+        {img:'imagenes/Galeria/esculturas/malos tiempos/mal7.jpg'},
+        {img:'imagenes/Galeria/esculturas/malos tiempos/mal9.jpg'},
+        {img:'imagenes/Galeria/esculturas/malos tiempos/mal10.jpg'},
+        {img:'imagenes/Galeria/esculturas/malos tiempos/malos tiempos.jpg'},
+
+        {img:'imagenes/Galeria/esculturas/desconexion/desco5.jpg'},
+        {img:'imagenes/Galeria/esculturas/desconexion/desco1.jpg'},
+        {img:'imagenes/Galeria/esculturas/desconexion/desco2.jpg'},
+        {img:'imagenes/Galeria/esculturas/desconexion/desco3.jpg'},
+        {img:'imagenes/Galeria/esculturas/desconexion/desco4.jpg'},
+
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri1.jpg'},
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri2.jpg'},
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri3.jpg'},
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri4.jpg'},
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri5.jpg'},
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri6.jpg'},
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri7.jpg'},
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri8.jpg'},
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri9.jpg'},
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri10.jpg'},
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri11.jpg'},
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri12.jpg'},
+
+        {img:'imagenes/Galeria/esculturas/coxapo/cox1.jpg'},
+        {img:'imagenes/Galeria/esculturas/coxapo/cox2.jpg'},
+        {img:'imagenes/Galeria/esculturas/coxapo/cox3.jpg'},
+        {img:'imagenes/Galeria/esculturas/coxapo/cox4.jpg'},
+        {img:'imagenes/Galeria/esculturas/coxapo/cox5.jpg'},
+        {img:'imagenes/Galeria/esculturas/coxapo/cox6.jpg'}
+        
+        
     ]
     let contador = 0
     const contenedor = document.querySelector('.slideshow')
