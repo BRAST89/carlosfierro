@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded',function (){
+document.addEventListener('DOMContentLoaded',function esculturasGaleria(){
     let imagenes = [
         {img: 'imagenes/Galeria/esculturas/tierra viva/2.jpg'},
         {img: 'imagenes/Galeria/esculturas/tierra viva/1.jpg'},
@@ -394,10 +394,11 @@ document.addEventListener('DOMContentLoaded',function (){
         
         
     ]
+
     let contador = 0
     const contenedor = document.querySelector('.slideshow')
     const overlay = document.querySelector('.overlay')
-    const containertierra = document.querySelectorAll('.imagenescultura img')
+    let containeresculturas = document.querySelectorAll('.imagenescultura img')
     const img_slideshow = document.querySelector('.slideshow img')
 
     contenedor.addEventListener('click', function(event){
@@ -410,7 +411,7 @@ document.addEventListener('DOMContentLoaded',function (){
                 img.src = imagenes[contador - 1].img
                 contador--
             } else {
-                img.src = imagenes[tierraviva.length - 1].img        
+                img.src = imagenes[imagenes.length - 1].img        
                 contador = imagenes.length - 1
             }
         }else if (tgt == adelante){
@@ -425,7 +426,7 @@ document.addEventListener('DOMContentLoaded',function (){
                 
     })
 
-    Array.from(containertierra).forEach(img =>{
+    Array.from(containeresculturas).forEach(img =>{
         img.addEventListener('click', event =>{
             const imagen_seleccionada = +event.target.dataset.imgMostrar
             img_slideshow.src = imagenes[imagen_seleccionada].img
@@ -441,3 +442,104 @@ document.addEventListener('DOMContentLoaded',function (){
     })
 
 })
+
+document.addEventListener('DOMContentLoaded',function trofeosGaleria(){
+    
+    let imagenestrofeos = [
+        {img:'imagenes/Galeria/trofeos/1ºencuentro/encue1.jpg'},
+        {img:'imagenes/Galeria/trofeos/1ºencuentro/encue2.jpg'},
+        {img:'imagenes/Galeria/trofeos/1ºencuentro/encue3.jpg'},
+        {img:'imagenes/Galeria/trofeos/1ºencuentro/encue4.jpg'},
+
+        {img:'imagenes/Galeria/trofeos/la locomotora/1loco.jpg'},
+        {img:'imagenes/Galeria/trofeos/la locomotora/2loco.jpg'},
+        {img:'imagenes/Galeria/trofeos/la locomotora/3loco.jpg'},
+        {img:'imagenes/Galeria/trofeos/la locomotora/4loco.jpg'},
+        {img:'imagenes/Galeria/trofeos/la locomotora/5loco.jpg'},
+        {img:'imagenes/Galeria/trofeos/la locomotora/6loco.jpg'},
+
+        {img:'imagenes/Galeria/trofeos/pasion por el futbol/pas8.jpg'},
+        {img:'imagenes/Galeria/trofeos/pasion por el futbol/pas1.jpg'},
+        {img:'imagenes/Galeria/trofeos/pasion por el futbol/pas2.jpg'},
+        {img:'imagenes/Galeria/trofeos/pasion por el futbol/pas3.jpg'},
+        {img:'imagenes/Galeria/trofeos/pasion por el futbol/pas4.jpg'},
+        {img:'imagenes/Galeria/trofeos/pasion por el futbol/pas5.jpg'},
+        {img:'imagenes/Galeria/trofeos/pasion por el futbol/pas6.jpg'},
+        {img:'imagenes/Galeria/trofeos/pasion por el futbol/pas7.jpg'},
+    
+
+        {img:'imagenes/Galeria/trofeos/pasion por el futbol/pas10.jpg'},
+        {img:'imagenes/Galeria/trofeos/pasion por el futbol/pas9.jpg'},
+
+        {img:'imagenes/Galeria/trofeos/mapfre/mapfre2.jpg'},
+        {img:'imagenes/Galeria/trofeos/mapfre/mapfre1.jpg'},
+        {img:'imagenes/Galeria/trofeos/mapfre/mapfre3.jpg'},
+        {img:'imagenes/Galeria/trofeos/mapfre/mapfre4.jpg'},
+        {img:'imagenes/Galeria/trofeos/mapfre/mapfre5.jpg'},
+
+        {img:'imagenes/Galeria/trofeos/encargo deportivo/enca1.jpg'},
+
+        {img:'imagenes/Galeria/trofeos/karaoke/ka4.jpg'},
+        {img:'imagenes/Galeria/trofeos/karaoke/ka1.jpg'},
+        {img:'imagenes/Galeria/trofeos/karaoke/ka2.jpg'},
+        {img:'imagenes/Galeria/trofeos/karaoke/ka3.jpg'},
+
+
+        {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso4.jpg'},
+        {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso1.jpg'},
+        {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso2.jpg'},
+        {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso3.jpg'},
+        {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso5.jpg'},
+        {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso6.jpg'},
+        {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso7.jpg'},
+        {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso8.jpg'}
+    ]
+    let contador = 0
+    const contenedor = document.querySelector('.slideshowtrofeos')
+    const overlay = document.querySelector('.overlaytrofeos')
+    let containertrofeos = document.querySelectorAll('.imagentrofeos img')
+    const img_slideshow = document.querySelector('.slideshowtrofeos img')
+
+    contenedor.addEventListener('click', function(event){
+        let atras = contenedor.querySelector('.atrastrofeos'),
+            adelante = contenedor.querySelector('.adelantetrofeos'),
+            img = contenedor.querySelector('img'),
+            tgt = event.target
+        if (tgt == atras){
+            if (contador > 0) {
+                img.src = imagenestrofeos[contador - 1].img
+                contador--
+            } else {
+                img.src = imagenestrofeos[imagenestrofeos.length - 1].img        
+                contador = imagenestrofeos.length - 1
+            }
+        }else if (tgt == adelante){
+            if (contador < imagenestrofeos.length - 1){
+                    img.src = imagenestrofeos[contador + 1].img
+                    contador++
+            }else{
+                    img.src = imagenestrofeos[0].img
+                    contador = 0
+            }
+        }
+                
+    })
+
+    Array.from(containertrofeos).forEach(img =>{
+        img.addEventListener('click', event =>{
+            const imagen_seleccionada = +event.target.dataset.imgMostrar
+            img_slideshow.src = imagenestrofeos[imagen_seleccionada].img
+            contador = imagen_seleccionada
+            overlay.style.opacity = 1
+            overlay.style.visibility = 'visible'
+        })
+    })
+
+    document.querySelector('.bi-bi-x-circle-filltrofeos').addEventListener('click',() =>{
+        overlay.style.opacity = 0
+        overlay.style.visibility = 'hidden'
+    })
+})
+
+
+

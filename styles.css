@@ -2437,21 +2437,21 @@ header {
 }
 
 @media (max-width: 319px) {
-  .esculturas {
+  .esculturas, .trofeos {
     gap: 10px;
     margin: auto;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
-  .esculturas {
+  .esculturas, .trofeos {
     gap: 10px;
     margin: auto;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 415px) and (max-width: 650px) {
-  .esculturas {
+  .esculturas, .trofeos {
     width: 85%;
     height: 60%;
     margin: 20px 8px 20px 10px;
@@ -2459,35 +2459,35 @@ header {
   }
 }
 @media (min-width: 651px) and (max-width: 912px) {
-  .esculturas {
+  .esculturas, .trofeos {
     gap: 10px;
     margin: 20px 20px 20px 5px;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
-  .esculturas {
+  .esculturas, .trofeos {
     gap: 10px;
     margin: 20px 8px 20px 10px;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 1205px) {
-  .esculturas {
+  .esculturas, .trofeos {
     gap: 10px;
     margin: 20px 8px 20px 10px;
     box-shadow: 0 0 15px gray;
   }
 }
 
-.tituloesculturas {
+.tituloesculturas, .titulotrofeos {
   text-align: center;
   font: oblique bold 220% cursive;
   color: rgb(241, 237, 176);
 }
 
 @media (max-width: 319px) {
-  .imagenescultura {
+  .imagenescultura, .imagentrofeos {
     display: inline-block;
     text-align: center;
     width: 90%;
@@ -2498,7 +2498,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover {
+  .imagenescultura :hover, .imagentrofeos :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2507,7 +2507,7 @@ header {
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
-  .imagenescultura {
+  .imagenescultura, .imagentrofeos {
     display: inline-block;
     text-align: center;
     width: 90%;
@@ -2518,7 +2518,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover {
+  .imagenescultura :hover, .imagentrofeos :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2527,7 +2527,7 @@ header {
   }
 }
 @media (min-width: 415px) and (max-width: 650px) {
-  .imagenescultura {
+  .imagenescultura, .imagentrofeos {
     display: inline-block;
     text-align: center;
     width: 45%;
@@ -2538,7 +2538,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover {
+  .imagenescultura :hover, .imagentrofeos :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2547,7 +2547,7 @@ header {
   }
 }
 @media (min-width: 651px) and (max-width: 912px) {
-  .imagenescultura {
+  .imagenescultura, .imagentrofeos {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -2558,7 +2558,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover {
+  .imagenescultura :hover, .imagentrofeos :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2567,7 +2567,7 @@ header {
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
-  .imagenescultura {
+  .imagenescultura, .imagentrofeos {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -2578,7 +2578,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover {
+  .imagenescultura :hover, .imagentrofeos :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2587,7 +2587,7 @@ header {
   }
 }
 @media (min-width: 1205px) {
-  .imagenescultura {
+  .imagenescultura, .imagentrofeos {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -2598,7 +2598,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover {
+  .imagenescultura :hover, .imagentrofeos :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2611,7 +2611,11 @@ header {
   display: none;
 }
 
-.overlay {
+.bombos, .locomotora, .futbol, .trofeost, .mapfre, .regalo, .karaoke, .mundoagua {
+  display: none;
+}
+
+.overlay, .overlaytrofeos {
   position: fixed;
   left: 0;
   top: 0;
@@ -2627,7 +2631,7 @@ header {
   opacity: 0;
 }
 
-.slideshow {
+.slideshow, .slideshowtrofeos {
   width: 100%;
   height: 100%;
   background-color: rgb(0, 0, 0);
@@ -2637,13 +2641,13 @@ header {
   justify-content: center;
 }
 
-.slideshow img {
+.slideshow img, .slideshowtrofeos img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
 
-.bi-bi-x-circle-fill {
+.bi-bi-x-circle-fill, .bi-bi-x-circle-filltrofeos {
   position: absolute;
   top: 35px;
   right: 35px;
@@ -2659,12 +2663,12 @@ header {
   padding: 2px;
   transition: all 0.2s ease;
 }
-.bi-bi-x-circle-fill :hover {
+.bi-bi-x-circle-fill :hover, .bi-bi-x-circle-filltrofeos :hover {
   transform: scale(1.05);
   cursor: pointer;
 }
 
-.botones {
+.botones, .botonestrofeos {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -2679,53 +2683,53 @@ header {
   justify-content: center;
   cursor: pointer;
 }
-.botones :hover {
+.botones :hover, .botonestrofeos :hover {
   transform: scale(1.1);
   transition: all 0.2s ease;
 }
 
-.atras {
+.atras, .atrastrofeos {
   left: 20px;
 }
 
-.adelante {
+.adelante, .adelantetrofeos {
   right: 20px;
 }
 
-.bi {
+.bi, .bitrofeos {
   pointer-events: none;
 }
 
 @media screen and (max-width: 800px) {
-  .botones {
+  .botones, .botonestrofeos {
     font-size: 55px;
   }
-  .atras {
+  .atras, .atrastrofeos {
     left: 5px;
   }
-  .adelante {
+  .adelante, .adelantetrofeos {
     right: 5px;
   }
-  .slideshow {
+  .slideshow, .slideshowtrofeos {
     width: 98%;
   }
 }
 @media screen and (max-width: 319px) {
-  .botones {
+  .botones, .botonestrofeos {
     font-size: 15px;
     width: 15px;
     height: 15px;
   }
-  .atras {
+  .atras, .atrastrofeos {
     left: 5px;
   }
-  .adelante {
+  .adelante, .adelantetrofeos {
     right: 5px;
   }
-  .slideshow {
+  .slideshow, .slideshowtrofeos {
     width: 98%;
   }
-  .bi-bi-x-circle-fill {
+  .bi-bi-x-circle-fill, .bi-bi-x-circle-filltrofeos {
     position: absolute;
     top: 25px;
     right: 15px;

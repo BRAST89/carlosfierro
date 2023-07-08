@@ -1,4 +1,4 @@
-.esculturas{
+.esculturas, .trofeos{
     
     @media(max-width: 319px){
         gap: 10px;
@@ -38,14 +38,14 @@
         box-shadow: 0 0 15px gray;
     }
 }
-.tituloesculturas{
+.tituloesculturas, .titulotrofeos{
     text-align: center;
     font: oblique bold 220% cursive;
     color: rgb(241, 237, 176);
 }
 
 
-.imagenescultura{
+.imagenescultura, .imagentrofeos{
     @media(max-width: 319px){
         display: inline-block;
         text-align: center;
@@ -160,12 +160,17 @@
     }
     
 }
+//esculturas
 .tierraviva, .cobra, .libertad, .tormenta, .union, .camino, .tiempos, .desayuno,.relog, .acero, .quijote, .rosal, .pulmon, .pulmon2, .cigüeña, .punta, .evolucion, .lazos, .renacimiento, .resplandor, .paula, .viveros, .viveros2, .ejecucion, .sueño, .family, .calentamiento, .corazon, .herido, .rosa, .equilibrio, .mariposa, .suministro, .malos, .desconexion, .riqueza, .coxapo{
+    display: none;
+}
+//trofeos
+.bombos, .locomotora, .futbol, .trofeost, .mapfre, .regalo, .karaoke, .mundoagua{
     display: none;
 }
 
 
-.overlay{
+.overlay, .overlaytrofeos{
     position: fixed;
     left: 0;
     top: 0;
@@ -181,7 +186,7 @@
     opacity: 0;
 }
 
-.slideshow{
+.slideshow, .slideshowtrofeos{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 1);
@@ -190,12 +195,12 @@
     display: flex;
     justify-content: center;
 }
-.slideshow img{
+.slideshow img, .slideshowtrofeos img{
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
-.bi-bi-x-circle-fill{
+.bi-bi-x-circle-fill, .bi-bi-x-circle-filltrofeos{
     position: absolute;
     top: 35px;
     right: 35px;
@@ -219,7 +224,7 @@
 
 
 
-.botones{
+.botones, .botonestrofeos{
     //border: 1px solid red;
     position: absolute;
     top: 50%;
@@ -241,46 +246,46 @@
     
     
 }
-.atras{
+.atras, .atrastrofeos{
     left: 20px;
 
 }
-.adelante{
+.adelante, .adelantetrofeos{
     right: 20px;
 }
-.bi{
+.bi, .bitrofeos{
     pointer-events: none;
 }
 @media screen and (max-width: 800px){
-    .botones{
+    .botones, .botonestrofeos{
         font-size: 55px;
     }
-    .atras{
+    .atras, .atrastrofeos{
         left: 5px;
     }
-    .adelante{
+    .adelante, .adelantetrofeos{
         right: 5px;
     }
-    .slideshow{
+    .slideshow, .slideshowtrofeos{
         width: 98%;
     }
 }
 @media screen and (max-width: 319px){
-    .botones{
+    .botones, .botonestrofeos{
         font-size: 15px;
         width: 15px;
         height: 15px;
     }
-    .atras{
+    .atras, .atrastrofeos{
         left: 5px;
     }
-    .adelante{
+    .adelante, .adelantetrofeos{
         right: 5px;
     }
-    .slideshow{
+    .slideshow, .slideshowtrofeos{
         width: 98%;
     }
-    .bi-bi-x-circle-fill{
+    .bi-bi-x-circle-fill, .bi-bi-x-circle-filltrofeos{
         position: absolute;
         top: 25px;
         right: 15px;
