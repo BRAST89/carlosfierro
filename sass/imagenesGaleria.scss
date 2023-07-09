@@ -45,7 +45,7 @@
 }
 
 
-.imagenescultura, .imagentrofeos, .imagengrabados, .imagenrelieves{
+.imagenescultura, .imagentrofeos, .imagengrabados,  .imagenrelieves{
     @media(max-width: 319px){
         display: inline-block;
         text-align: center;
@@ -150,6 +150,7 @@
         box-sizing: border-box;
         border: 2px solid #292828;
         border-radius: 10px;
+
         :hover{
             cursor: pointer;
             filter: grayscale(0%);

@@ -623,4 +623,65 @@ document.addEventListener('DOMContentLoaded',function grabadosGaleria(){
     })
 
 })
+document.addEventListener('DOMContentLoaded',function relievesGaleria(){
+    
+    let imagenesrelieves = [
+
+        {img:'imagenes/Galeria/grabados/el peon/per.jpg'},
+        {img:'imagenes/Galeria/grabados/el peon/pe1.jpg'},
+
+        {img:'imagenes/Galeria/grabados/sin titulo/sin1.jpg'},
+        {img:'imagenes/Galeria/grabados/marta/marta.jpg'},
+
+        {img:'imagenes/Galeria/grabados/chapa alumino acada/ch1.jpg'}
+
+    ]
+    let contador = 0
+    const contenedorrelieves = document.querySelector('.slideshowr')
+    const overlayrelieves = document.querySelector('.overlayr')
+    let containerrelieves = document.querySelectorAll('.imagenrelieves img')
+    const img_slideshowrelieves = document.querySelector('.slideshowr img')
+
+    contenedorrelieves.addEventListener('click', function relievesGaleria(event){
+        let atras = contenedorrelieves.querySelector('.atrasr'),
+            adelante = contenedorrelieves.querySelector('.adelanter'),
+            img = contenedorrelieves.querySelector('img'),
+            tgt = event.target
+        if (tgt == atras){
+            if (contador > 0) {
+                img.src = imagenesrelieves[contador - 1].img
+                contador--
+            } else {
+                img.src = imagenesrelieves[imagenesrelieves.length - 1].img        
+                contador = imagenesrelieves.length - 1
+            }
+        }else if (tgt == adelante){
+            if (contador < imagenesrelieves.length - 1){
+                    img.src = imagenesrelieves[contador + 1].img
+                    contador++
+            }else{
+                    img.src = imagenesrelieves[0].img
+                    contador = 0
+            }
+        }
+                
+    })
+
+    Array.from(containerrelieves).forEach(img =>{
+        img.addEventListener('click', event =>{
+            const imagen_seleccionada = +event.target.dataset.imgMostrar
+            img_slideshowrelieves.src = imagenesrelieves[imagen_seleccionada].img
+            contador = imagen_seleccionada
+            overlayrelieves.style.opacity = 1
+            overlayrelieves.style.visibility = 'visible'
+        })
+    })
+
+    document.querySelector('.bi-bi-x-circle-fillr').addEventListener('click',() =>{
+        overlayrelieves.style.opacity = 0
+        overlayrelieves.style.visibility = 'hidden'
+    })
+
+})
+
 
