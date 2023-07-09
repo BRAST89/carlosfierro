@@ -1,4 +1,4 @@
-.esculturas, .trofeos, .grabados{
+.esculturas, .trofeos, .grabados, .relieves{
     
     @media(max-width: 319px){
         gap: 10px;
@@ -38,14 +38,14 @@
         box-shadow: 0 0 15px gray;
     }
 }
-.tituloesculturas, .titulotrofeos, .titulograbados{
+.tituloesculturas, .titulotrofeos, .titulograbados, .titulorelieves{
     text-align: center;
     font: oblique bold 220% cursive;
     color: rgb(241, 237, 176);
 }
 
 
-.imagenescultura, .imagentrofeos, .imagengrabados{
+.imagenescultura, .imagentrofeos, .imagengrabados, .imagenrelieves{
     @media(max-width: 319px){
         display: inline-block;
         text-align: center;
@@ -173,7 +173,7 @@
     display: none;
 }
 
-.overlay, .overlayg, .overlayt{
+.overlay, .overlayg, .overlayt, .overlayr{
     position: fixed;
     left: 0;
     top: 0;
@@ -189,7 +189,7 @@
     opacity: 0;
 }
 
-.slideshow, .slideshowg, .slideshowt{
+.slideshow, .slideshowg, .slideshowt, .slideshowr{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 1);
@@ -198,12 +198,12 @@
     display: flex;
     justify-content: center;
 }
-.slideshow img, .slideshowg img, .slideshowt img{
+.slideshow img, .slideshowg img, .slideshowt img, .slideshowr img{
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
-.bi-bi-x-circle-fill, .bi-bi-x-circle-fillg, .bi-bi-x-circle-fillt{
+.bi-bi-x-circle-fill, .bi-bi-x-circle-fillg, .bi-bi-x-circle-fillt, .bi-bi-x-circle-fillr{
     position: absolute;
     top: 35px;
     right: 35px;
@@ -227,7 +227,7 @@
 
 
 
-.botones, .botonesg, .botonest{
+.botones, .botonesg, .botonest, .botonesr{
     //border: 1px solid red;
     position: absolute;
     top: 50%;
@@ -249,46 +249,46 @@
     
     
 }
-.atras, .atrasg, .atrast{
+.atras, .atrasg, .atrast, .atrasr{
     left: 20px;
 
 }
-.adelante, .adelanteg, .adelantet{
+.adelante, .adelanteg, .adelantet, .adelanter{
     right: 20px;
 }
 .bi, .big, .bit{
     pointer-events: none;
 }
 @media screen and (max-width: 800px){
-    .botones, .botonesg, .botonest{
+    .botones, .botonesg, .botonest, .botonesr{
         font-size: 55px;
     }
-    .atras, .atrasg, .atrast{
+    .atras, .atrasg, .atrast, .atrasr{
         left: 5px;
     }
-    .adelante, .adelanteg, .adelantet{
+    .adelante, .adelanteg, .adelantet, .adelanter{
         right: 5px;
     }
-    .slideshow, .slideshowg, .slideshowt{
+    .slideshow, .slideshowg, .slideshowt, .slideshowr{
         width: 98%;
     }
 }
 @media screen and (max-width: 319px){
-    .botones, .botonesg, .botonest{
+    .botones, .botonesg, .botonest, .botonesr{
         font-size: 15px;
         width: 15px;
         height: 15px;
     }
-    .atras, .atrasg, .atrast{
+    .atras, .atrasg, .atrast, .atrasr{
         left: 5px;
     }
-    .adelante, .adelanteg, .adelantet{
+    .adelante, .adelanteg, .adelantet, .adelanter{
         right: 5px;
     }
-    .slideshow, .slideshowg, .slideshowt{
+    .slideshow, .slideshowg, .slideshowt, .slideshowr{
         width: 98%;
     }
-    .bi-bi-x-circle-fill, .bi-bi-x-circle-fillg, .bi-bi-x-circle-fillt{
+    .bi-bi-x-circle-fill, .bi-bi-x-circle-fillg, .bi-bi-x-circle-fillt, .bi-bi-x-circle-fillr{
         position: absolute;
         top: 25px;
         right: 15px;

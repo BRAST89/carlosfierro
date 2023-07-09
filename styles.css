@@ -2437,21 +2437,21 @@ header {
 }
 
 @media (max-width: 319px) {
-  .esculturas, .trofeos, .grabados {
+  .esculturas, .trofeos, .grabados, .relieves {
     gap: 10px;
     margin: auto;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
-  .esculturas, .trofeos, .grabados {
+  .esculturas, .trofeos, .grabados, .relieves {
     gap: 10px;
     margin: auto;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 415px) and (max-width: 650px) {
-  .esculturas, .trofeos, .grabados {
+  .esculturas, .trofeos, .grabados, .relieves {
     width: 85%;
     height: 60%;
     margin: 20px 8px 20px 10px;
@@ -2459,35 +2459,35 @@ header {
   }
 }
 @media (min-width: 651px) and (max-width: 912px) {
-  .esculturas, .trofeos, .grabados {
+  .esculturas, .trofeos, .grabados, .relieves {
     gap: 10px;
     margin: 20px 20px 20px 5px;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
-  .esculturas, .trofeos, .grabados {
+  .esculturas, .trofeos, .grabados, .relieves {
     gap: 10px;
     margin: 20px 8px 20px 10px;
     box-shadow: 0 0 15px gray;
   }
 }
 @media (min-width: 1205px) {
-  .esculturas, .trofeos, .grabados {
+  .esculturas, .trofeos, .grabados, .relieves {
     gap: 10px;
     margin: 20px 8px 20px 10px;
     box-shadow: 0 0 15px gray;
   }
 }
 
-.tituloesculturas, .titulotrofeos, .titulograbados {
+.tituloesculturas, .titulotrofeos, .titulograbados, .titulorelieves {
   text-align: center;
   font: oblique bold 220% cursive;
   color: rgb(241, 237, 176);
 }
 
 @media (max-width: 319px) {
-  .imagenescultura, .imagentrofeos, .imagengrabados {
+  .imagenescultura, .imagentrofeos, .imagengrabados, .imagenrelieves {
     display: inline-block;
     text-align: center;
     width: 90%;
@@ -2498,7 +2498,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover {
+  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover, .imagenrelieves :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2507,7 +2507,7 @@ header {
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
-  .imagenescultura, .imagentrofeos, .imagengrabados {
+  .imagenescultura, .imagentrofeos, .imagengrabados, .imagenrelieves {
     display: inline-block;
     text-align: center;
     width: 90%;
@@ -2518,7 +2518,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover {
+  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover, .imagenrelieves :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2527,7 +2527,7 @@ header {
   }
 }
 @media (min-width: 415px) and (max-width: 650px) {
-  .imagenescultura, .imagentrofeos, .imagengrabados {
+  .imagenescultura, .imagentrofeos, .imagengrabados, .imagenrelieves {
     display: inline-block;
     text-align: center;
     width: 45%;
@@ -2538,7 +2538,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover {
+  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover, .imagenrelieves :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2547,7 +2547,7 @@ header {
   }
 }
 @media (min-width: 651px) and (max-width: 912px) {
-  .imagenescultura, .imagentrofeos, .imagengrabados {
+  .imagenescultura, .imagentrofeos, .imagengrabados, .imagenrelieves {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -2558,7 +2558,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover {
+  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover, .imagenrelieves :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2567,7 +2567,7 @@ header {
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
-  .imagenescultura, .imagentrofeos, .imagengrabados {
+  .imagenescultura, .imagentrofeos, .imagengrabados, .imagenrelieves {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -2578,7 +2578,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover {
+  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover, .imagenrelieves :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2587,7 +2587,7 @@ header {
   }
 }
 @media (min-width: 1205px) {
-  .imagenescultura, .imagentrofeos, .imagengrabados {
+  .imagenescultura, .imagentrofeos, .imagengrabados, .imagenrelieves {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -2598,7 +2598,7 @@ header {
     border: 2px solid #292828;
     border-radius: 10px;
   }
-  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover {
+  .imagenescultura :hover, .imagentrofeos :hover, .imagengrabados :hover, .imagenrelieves :hover {
     cursor: pointer;
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -2619,7 +2619,7 @@ header {
   display: none;
 }
 
-.overlay, .overlayg, .overlayt {
+.overlay, .overlayg, .overlayt, .overlayr {
   position: fixed;
   left: 0;
   top: 0;
@@ -2635,7 +2635,7 @@ header {
   opacity: 0;
 }
 
-.slideshow, .slideshowg, .slideshowt {
+.slideshow, .slideshowg, .slideshowt, .slideshowr {
   width: 100%;
   height: 100%;
   background-color: rgb(0, 0, 0);
@@ -2645,13 +2645,13 @@ header {
   justify-content: center;
 }
 
-.slideshow img, .slideshowg img, .slideshowt img {
+.slideshow img, .slideshowg img, .slideshowt img, .slideshowr img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
 
-.bi-bi-x-circle-fill, .bi-bi-x-circle-fillg, .bi-bi-x-circle-fillt {
+.bi-bi-x-circle-fill, .bi-bi-x-circle-fillg, .bi-bi-x-circle-fillt, .bi-bi-x-circle-fillr {
   position: absolute;
   top: 35px;
   right: 35px;
@@ -2667,12 +2667,12 @@ header {
   padding: 2px;
   transition: all 0.2s ease;
 }
-.bi-bi-x-circle-fill :hover, .bi-bi-x-circle-fillg :hover, .bi-bi-x-circle-fillt :hover {
+.bi-bi-x-circle-fill :hover, .bi-bi-x-circle-fillg :hover, .bi-bi-x-circle-fillt :hover, .bi-bi-x-circle-fillr :hover {
   transform: scale(1.05);
   cursor: pointer;
 }
 
-.botones, .botonesg, .botonest {
+.botones, .botonesg, .botonest, .botonesr {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -2687,16 +2687,16 @@ header {
   justify-content: center;
   cursor: pointer;
 }
-.botones :hover, .botonesg :hover, .botonest :hover {
+.botones :hover, .botonesg :hover, .botonest :hover, .botonesr :hover {
   transform: scale(1.1);
   transition: all 0.2s ease;
 }
 
-.atras, .atrasg, .atrast {
+.atras, .atrasg, .atrast, .atrasr {
   left: 20px;
 }
 
-.adelante, .adelanteg, .adelantet {
+.adelante, .adelanteg, .adelantet, .adelanter {
   right: 20px;
 }
 
@@ -2705,35 +2705,35 @@ header {
 }
 
 @media screen and (max-width: 800px) {
-  .botones, .botonesg, .botonest {
+  .botones, .botonesg, .botonest, .botonesr {
     font-size: 55px;
   }
-  .atras, .atrasg, .atrast {
+  .atras, .atrasg, .atrast, .atrasr {
     left: 5px;
   }
-  .adelante, .adelanteg, .adelantet {
+  .adelante, .adelanteg, .adelantet, .adelanter {
     right: 5px;
   }
-  .slideshow, .slideshowg, .slideshowt {
+  .slideshow, .slideshowg, .slideshowt, .slideshowr {
     width: 98%;
   }
 }
 @media screen and (max-width: 319px) {
-  .botones, .botonesg, .botonest {
+  .botones, .botonesg, .botonest, .botonesr {
     font-size: 15px;
     width: 15px;
     height: 15px;
   }
-  .atras, .atrasg, .atrast {
+  .atras, .atrasg, .atrast, .atrasr {
     left: 5px;
   }
-  .adelante, .adelanteg, .adelantet {
+  .adelante, .adelanteg, .adelantet, .adelanter {
     right: 5px;
   }
-  .slideshow, .slideshowg, .slideshowt {
+  .slideshow, .slideshowg, .slideshowt, .slideshowr {
     width: 98%;
   }
-  .bi-bi-x-circle-fill, .bi-bi-x-circle-fillg, .bi-bi-x-circle-fillt {
+  .bi-bi-x-circle-fill, .bi-bi-x-circle-fillg, .bi-bi-x-circle-fillt, .bi-bi-x-circle-fillr {
     position: absolute;
     top: 25px;
     right: 15px;
