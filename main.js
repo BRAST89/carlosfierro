@@ -553,9 +553,6 @@ document.addEventListener('DOMContentLoaded',function trofeosGaleria(){
 document.addEventListener('DOMContentLoaded',function grabadosGaleria(){
     
     let imagenesgrabados = [
-        {img:'imagenes/Galeria/grabados/sin titulo/sin1.jpg'},
-
-        {img:'imagenes/Galeria/grabados/marta/marta.jpg'},
 
         {img:'imagenes/Galeria/grabados/grabado florarl/gr5.jpg'},
         {img:'imagenes/Galeria/grabados/grabado florarl/gr1.jpg'},
@@ -568,22 +565,28 @@ document.addEventListener('DOMContentLoaded',function grabadosGaleria(){
         {img:'imagenes/Galeria/grabados/marco espejo/ma3.jpg'},
         {img:'imagenes/Galeria/grabados/marco espejo/ma4.jpg'},
 
-        {img:'imagenes/Galeria/grabados/el peon/per.jpg'},
-        {img:'imagenes/Galeria/grabados/el peon/pe1.jpg'},
-
-        {img:'imagenes/Galeria/grabados/sin titulo2/sinti2.jpg'},
-
         {img:'imagenes/Galeria/grabados/sin titulo3/sinti3.jpg'},
-
-        {img:'imagenes/Galeria/grabados/chapa alumino acada/ch1.jpg'},
-
         {img:'imagenes/Galeria/grabados/sin titulo4/sinti4.jpg'},
+
 
         {img:'imagenes/Galeria/grabados/encargo para regalo/encargo para regalo.jpg'},
 
         {img:'imagenes/Galeria/grabados/homenaje manuel/home1.jpg'},
 
-        {img:'imagenes/Galeria/grabados/regalo alumnos a profesor/regal1.jpg'}
+        {img:'imagenes/Galeria/grabados/regalo alumnos a profesor/regal1.jpg'},
+
+
+        {img: 'imagenes/Galeria/grabados/sin titulo5/sinti5.jpg'},
+        {img: 'imagenes/Galeria/grabados/sin titulo5/sinti51.jpg'},
+        {img: 'imagenes/Galeria/grabados/sin titulo5/sinti52.jpg'},
+        {img: 'imagenes/Galeria/grabados/sin titulo5/sinti53.jpg'},
+        {img: 'imagenes/Galeria/grabados/sin titulo5/sinti54.jpg'},
+        
+        {img:'imagenes/Galeria/grabados/sin titulo/sin1.jpg'},
+
+        {img: 'imagenes/Galeria/grabados/marta/marta.jpg'}
+
+
     ]
     let contador = 0
     const contenedorgrabados = document.querySelector('.slideshowg')
@@ -642,7 +645,9 @@ document.addEventListener('DOMContentLoaded',function relievesGaleria(){
         {img:'imagenes/Galeria/grabados/sin titulo/sin1.jpg'},
         {img:'imagenes/Galeria/grabados/marta/marta.jpg'},
 
-        {img:'imagenes/Galeria/grabados/chapa alumino acada/ch1.jpg'}
+        {img:'imagenes/Galeria/grabados/chapa alumino acada/ch1.jpg'},
+
+        {img:'imagenes/Galeria/grabados/sin titulo2/sinti2.jpg'}
 
     ]
     let contador = 0
