@@ -1,5 +1,13 @@
 document.addEventListener('DOMContentLoaded',function esculturasGaleria(){
     let imagenes = [
+
+        {img:'imagenes/Galeria/esculturas/coxapo/cox1.jpg'},
+        {img:'imagenes/Galeria/esculturas/coxapo/cox2.jpg'},
+        {img:'imagenes/Galeria/esculturas/coxapo/cox3.jpg'},
+        {img:'imagenes/Galeria/esculturas/coxapo/cox4.jpg'},
+        {img:'imagenes/Galeria/esculturas/coxapo/cox5.jpg'},
+        {img:'imagenes/Galeria/esculturas/coxapo/cox6.jpg'},
+
         {img: 'imagenes/Galeria/esculturas/tierra viva/2.jpg'},
         {img: 'imagenes/Galeria/esculturas/tierra viva/1.jpg'},
         {img: 'imagenes/Galeria/esculturas/tierra viva/3.jpg'},
@@ -147,18 +155,17 @@ document.addEventListener('DOMContentLoaded',function esculturasGaleria(){
         {img: 'imagenes/Galeria/esculturas/el pulmon/12pu.jpg'},
         {img: 'imagenes/Galeria/esculturas/el pulmon/13pu.jpg'},
         {img: 'imagenes/Galeria/esculturas/el pulmon/14pu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/el pulmon/15pu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/el pulmon/16pu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/el pulmon/17pu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/el pulmon/18pu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/el pulmon/19pu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/el pulmon/20pu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/el pulmon/21pu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/el pulmon/22pu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/el pulmon/23pu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/el pulmon/24pu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/el pulmon/25pu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/el pulmon/26pu.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el pulmon/15pur.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el pulmon/16pur.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el pulmon/17pur.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el pulmon/18pur.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el pulmon/19pur.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el pulmon/20pur.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el pulmon/22pur.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el pulmon/23pur.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el pulmon/24pur.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el pulmon/25pur.jpg'},
+        {img: 'imagenes/Galeria/esculturas/el pulmon/26pur.jpg'},
         
         {img: 'imagenes/Galeria/esculturas/el pulmon 2(28-05-2014)/3pul.jpg'},
         {img: 'imagenes/Galeria/esculturas/el pulmon 2(28-05-2014)/1pul.jpg'},
@@ -193,6 +200,7 @@ document.addEventListener('DOMContentLoaded',function esculturasGaleria(){
         {img: 'imagenes/Galeria/esculturas/la punta del iceberg/12pun.jpg'},
         {img: 'imagenes/Galeria/esculturas/la punta del iceberg/13pun.jpg'},
 
+        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/22evu.jpg'},
         {img: 'imagenes/Galeria/esculturas/evolucion de la materia/1evu.jpg'},
         {img: 'imagenes/Galeria/esculturas/evolucion de la materia/2evu.jpg'},
         {img: 'imagenes/Galeria/esculturas/evolucion de la materia/3evu.jpg'},
@@ -214,7 +222,7 @@ document.addEventListener('DOMContentLoaded',function esculturasGaleria(){
         {img: 'imagenes/Galeria/esculturas/evolucion de la materia/19evu.jpg'},
         {img: 'imagenes/Galeria/esculturas/evolucion de la materia/20evu.jpg'},
         {img: 'imagenes/Galeria/esculturas/evolucion de la materia/21evu.jpg'},
-        {img: 'imagenes/Galeria/esculturas/evolucion de la materia/22evu.jpg'},
+        
 
         {img: 'imagenes/Galeria/esculturas/lazos de union/1laz.jpg'},
         {img: 'imagenes/Galeria/esculturas/lazos de union/2laz.jpg'},
@@ -314,13 +322,15 @@ document.addEventListener('DOMContentLoaded',function esculturasGaleria(){
         {img:'imagenes/Galeria/esculturas/calentamiento hormal/ca8.jpg'},
         {img:'imagenes/Galeria/esculturas/calentamiento hormal/ca9.jpg'},
 
-        {img:'imagenes/Galeria/esculturas/mi corazon/co7.jpg'},
+        {img:'imagenes/Galeria/esculturas/mi corazon/copor.jpg'},
         {img:'imagenes/Galeria/esculturas/mi corazon/co1.jpg'},
         {img:'imagenes/Galeria/esculturas/mi corazon/co2.jpg'},
         {img:'imagenes/Galeria/esculturas/mi corazon/co3.jpg'},
         {img:'imagenes/Galeria/esculturas/mi corazon/co4.jpg'},
         {img:'imagenes/Galeria/esculturas/mi corazon/co5.jpg'},
         {img:'imagenes/Galeria/esculturas/mi corazon/co6.jpg'},
+        {img:'imagenes/Galeria/esculturas/mi corazon/co7.jpg'},
+        {img:'imagenes/Galeria/esculturas/mi corazon/co8.jpg'},
 
         {img:'imagenes/Galeria/esculturas/herido/herido.jpg'},
 
@@ -373,14 +383,9 @@ document.addEventListener('DOMContentLoaded',function esculturasGaleria(){
         {img:'imagenes/Galeria/esculturas/riqueza natural/ri9.jpg'},
         {img:'imagenes/Galeria/esculturas/riqueza natural/ri10.jpg'},
         {img:'imagenes/Galeria/esculturas/riqueza natural/ri11.jpg'},
-        {img:'imagenes/Galeria/esculturas/riqueza natural/ri12.jpg'},
+        {img:'imagenes/Galeria/esculturas/riqueza natural/ri12.jpg'}
 
-        {img:'imagenes/Galeria/esculturas/coxapo/cox1.jpg'},
-        {img:'imagenes/Galeria/esculturas/coxapo/cox2.jpg'},
-        {img:'imagenes/Galeria/esculturas/coxapo/cox3.jpg'},
-        {img:'imagenes/Galeria/esculturas/coxapo/cox4.jpg'},
-        {img:'imagenes/Galeria/esculturas/coxapo/cox5.jpg'},
-        {img:'imagenes/Galeria/esculturas/coxapo/cox6.jpg'}
+        
         
         
     ]
