@@ -58,10 +58,7 @@ document.addEventListener('DOMContentLoaded',function esculturasGaleria(){
         {img: 'imagenes/Galeria/esculturas/Tormenta/5tor.jpg'},
         {img: 'imagenes/Galeria/esculturas/Tormenta/6tor.jpg'},
 
-        {img: 'imagenes/Galeria/esculturas/Union/1uni.jpg'},
-        {img: 'imagenes/Galeria/esculturas/Union/2uni.jpg'},
-        {img: 'imagenes/Galeria/esculturas/Union/3uni.jpg'},
-        {img: 'imagenes/Galeria/esculturas/Union/4uni.jpg'},
+
 
         {img: 'imagenes/Galeria/esculturas/camino/4cam.jpg'},
         {img: 'imagenes/Galeria/esculturas/camino/1cam.jpg'},
@@ -267,14 +264,7 @@ document.addEventListener('DOMContentLoaded',function esculturasGaleria(){
         {img:'imagenes/Galeria/esculturas/viveros/vive6.jpg'},
         {img:'imagenes/Galeria/esculturas/viveros/vive7.jpg'},
 
-        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro1.jpg'},
-        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro2.jpg'},
-        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro3.jpg'},
-        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro4.jpg'},
-        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro5.jpg'},
-        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro6.jpg'},
-        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro7.jpg'},
-        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro8.jpg'},
+        
 
         {img:'imagenes/Galeria/esculturas/la ejecucion/eje16.jpg'},
         {img:'imagenes/Galeria/esculturas/la ejecucion/eje1.jpg'},
@@ -492,7 +482,21 @@ document.addEventListener('DOMContentLoaded',function trofeosGaleria(){
         {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso5.jpg'},
         {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso6.jpg'},
         {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso7.jpg'},
-        {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso8.jpg'}
+        {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso8.jpg'},
+
+        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro1.jpg'},
+        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro2.jpg'},
+        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro3.jpg'},
+        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro4.jpg'},
+        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro5.jpg'},
+        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro6.jpg'},
+        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro7.jpg'},
+        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro8.jpg'},
+
+        {img: 'imagenes/Galeria/esculturas/Union/1uni.jpg'},
+        {img: 'imagenes/Galeria/esculturas/Union/2uni.jpg'},
+        {img: 'imagenes/Galeria/esculturas/Union/3uni.jpg'},
+        {img: 'imagenes/Galeria/esculturas/Union/4uni.jpg'}
     ]
     let contador = 0
     const contenedortrofeos = document.querySelector('.slideshowt')
