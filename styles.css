@@ -1954,7 +1954,7 @@ header {
   form {
     width: 80%;
     margin: auto;
-    background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+    background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20) url());
     padding: 20px;
   }
 }
@@ -2095,8 +2095,9 @@ header {
     margin: 0 0 10px 30px;
     padding: 5px 5px;
     font-size: 11px;
+    color: #d0d2d6;
     width: 80%;
-    background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
+    background: linear-gradient(to top, rgba(46, 45, 45, 0.5), rgb(54, 54, 54));
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
@@ -2105,8 +2106,9 @@ header {
     margin: 0 0 10px 30px;
     padding: 5px 5px;
     font-size: 11px;
+    color: #d0d2d6;
     width: 80%;
-    background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
+    background: linear-gradient(to top, rgba(46, 45, 45, 0.5), rgb(54, 54, 54));
   }
 }
 @media (min-width: 415px) and (max-width: 540px) {
@@ -2115,8 +2117,9 @@ header {
     margin: 0 0 10px 30px;
     padding: 5px 5px;
     font-size: 13px;
+    color: #d0d2d6;
     width: 80%;
-    background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
+    background: linear-gradient(to top, rgba(46, 45, 45, 0.5), rgb(54, 54, 54));
   }
 }
 @media (min-width: 541px) and (max-width: 912px) {
@@ -2125,8 +2128,9 @@ header {
     margin: 0 0 10px 30px;
     padding: 5px 5px;
     font-size: 13px;
+    color: #d0d2d6;
     width: 80%;
-    background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
+    background: linear-gradient(to top, rgba(46, 45, 45, 0.5), rgb(54, 54, 54));
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
@@ -2136,7 +2140,8 @@ header {
     padding: 2px 2px;
     width: 60%;
     font-size: 11px;
-    background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
+    color: #d0d2d6;
+    background: linear-gradient(to top, rgba(46, 45, 45, 0.5), rgb(54, 54, 54));
   }
 }
 @media (min-width: 1205px) {
@@ -2144,9 +2149,10 @@ header {
     display: block;
     margin: 0 0 10px 30px;
     padding: 2px;
-    width: 60%;
+    width: 70%;
     font-size: 13px;
-    background: linear-gradient(to top, rgba(110, 106, 106, 0.5), rgb(209, 199, 199));
+    color: #d0d2d6;
+    background: linear-gradient(to top, rgba(46, 45, 45, 0.5), rgb(54, 54, 54));
   }
 }
 
