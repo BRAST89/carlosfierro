@@ -2157,7 +2157,7 @@ header {
     font-size: 18px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(116, 116, 107, 0.884);
+    background: rgba(58, 119, 114, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2172,7 +2172,7 @@ header {
     font-size: 18px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(116, 116, 107, 0.884);
+    background: rgba(58, 119, 114, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2187,7 +2187,7 @@ header {
     font-size: 18px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(116, 116, 107, 0.884);
+    background: rgba(58, 119, 114, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2202,7 +2202,7 @@ header {
     font-size: 12px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(116, 116, 107, 0.884);
+    background: rgba(58, 119, 114, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2217,7 +2217,7 @@ header {
     font-size: 12px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(133, 133, 127, 0.884);
+    background: rgba(58, 119, 114, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2233,7 +2233,7 @@ header {
     font-size: 18px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(119, 119, 115, 0.884);
+    background: rgba(58, 119, 114, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2248,7 +2248,7 @@ header {
     font-size: 18px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(119, 119, 115, 0.884);
+    background: rgba(58, 119, 114, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2263,7 +2263,7 @@ header {
     font-size: 18px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(119, 119, 115, 0.884);
+    background: rgba(58, 119, 114, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2278,7 +2278,7 @@ header {
     font-size: 12px;
     font-weight: bold;
     color: rgb(14, 14, 13);
-    background: rgba(119, 119, 115, 0.884);
+    background: rgba(58, 119, 114, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2292,7 +2292,7 @@ header {
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
-    background: rgba(119, 119, 115, 0.884);
+    background: rgba(58, 119, 114, 0.884);
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -2303,62 +2303,62 @@ header {
 
 @media (max-width: 319px) {
   .enviar:hover {
-    background: rgb(107, 107, 72);
+    background: rgb(89, 172, 165);
     transform: scale(1.2);
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
   .enviar:hover {
-    background: rgb(107, 107, 72);
+    background: rgb(89, 172, 165);
     transform: scale(1.2);
   }
 }
 @media (min-width: 415px) and (max-width: 912px) {
   .enviar:hover {
-    background: rgb(107, 107, 72);
+    background: rgb(89, 172, 165);
     transform: scale(1.2);
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
   .enviar:hover {
-    background: rgb(107, 107, 72);
+    background: rgb(89, 172, 165);
     transform: scale(1.2);
   }
 }
 @media (min-width: 1205px) {
   .enviar:hover {
-    background: rgb(107, 107, 72);
+    background: rgb(89, 172, 165);
     transform: scale(1.2);
   }
 }
 
 @media (max-width: 319px) {
   .enviarL:hover {
-    background: rgb(205, 209, 155);
+    background: rgb(89, 172, 165);
     transform: scale(1.2);
   }
 }
 @media (min-width: 320px) and (max-width: 414px) {
   .enviarL:hover {
-    background: rgb(205, 209, 155);
+    background: rgb(89, 172, 165);
     transform: scale(1.2);
   }
 }
 @media (min-width: 415px) and (max-width: 912px) {
   .enviarL:hover {
-    background: rgb(205, 209, 155);
+    background: rgb(89, 172, 165);
     transform: scale(1.2);
   }
 }
 @media (min-width: 913px) and (max-width: 1204px) {
   .enviarL:hover {
-    background: rgb(205, 209, 155);
+    background: rgb(89, 172, 165);
     transform: scale(1.2);
   }
 }
 @media (min-width: 1205px) {
   .enviarL:hover {
-    background: rgb(205, 209, 155);
+    background: rgb(89, 172, 165);
     transform: scale(1.2);
   }
 }
