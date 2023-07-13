@@ -3,38 +3,38 @@ form{
     @media(max-width: 319px){
         width: 80%;
         margin: auto;
-        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        background: linear-gradient(to top, rgba(1, 1, 2, 0.5), rgb(20, 20, 20));
         padding: 20px;
     } 
     @media(min-width: 320px) and (max-width: 414px){
         width: 85%;
         margin: auto;
-        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.5), rgb(20, 20, 20));
         padding: 20px;
     }
     @media(min-width: 415px) and (max-width: 650px){
         width: 70%;
         margin: auto;
-        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.5), rgb(20, 20, 20));
         padding: 20px;
     }
     @media(min-width: 651px) and (max-width: 912px){
         width: 80%;
         margin: auto;
-        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.5), rgb(20, 20, 20));
         padding: 20px;
     }
     
     @media(min-width: 913px) and (max-width: 1204px){
         width: 80%;
         margin: auto;
-        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.5), rgb(20, 20, 20));
         padding: 20px;
     }
     @media(min-width: 1205px){
         width: 80%;
         margin: auto;
-        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.5), rgb(20, 20, 20));
         padding: 20px;
     }
     
@@ -47,38 +47,38 @@ form{
     @media(max-width: 319px){
         width: 80%;
         margin: auto;
-        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.5), rgb(20, 20, 20));
         padding: 20px;
     } 
     @media(min-width: 320px) and (max-width: 414px){
         width: 85%;
         margin: auto;
-        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.5), rgb(20, 20, 20));
         padding: 20px;
     }
     @media(min-width: 415px) and (max-width: 650px){
         width: 70%;
         margin: auto;
-        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.5), rgb(20, 20, 20));
         padding: 20px;
     }
     @media(min-width: 651px) and (max-width: 912px){
         width: 60%;
         margin: auto;
-        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.5), rgb(20, 20, 20));
         padding: 20px;
     }
     
     @media(min-width: 913px) and (max-width: 1204px){
         width: 50%;
         margin: auto;
-        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.5), rgb(20, 20, 20));
         padding: 20px;
     }
     @media(min-width: 1205px){
         width: 50%;
         margin: auto;
-        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.5), rgb(20, 20, 20));
         padding: 20px;
     }
     
@@ -92,32 +92,32 @@ form label, form legend{
         display: block;
         font-size: 20px;
         margin: 0 0 10px 30px;
-        color: antiquewhite;
+        color: rgb(241, 238, 233);
     } 
     @media(min-width: 320px) and (max-width: 414px){
         display: block;
         font-size: 20px;
         margin: 0 0 10px 30px;
-        color: antiquewhite;
+        color: rgb(233, 226, 217);
     }
     @media(min-width: 415px) and (max-width: 912px){
         display: block;
         font-size: 20px;
         margin: 0 0 10px 30px;
-        color: antiquewhite;
+        color: rgb(241, 241, 241);
     }
     
     @media(min-width: 913px) and (max-width: 1204px){
         display: block;
         font-size: 15px;
         margin: 0 0 10px 30px;
-        color: antiquewhite;
+        color: rgb(243, 236, 227);
     }
     @media(min-width: 1205px){
         display: block;
         font-size: 15px;
         margin: 0 0 10px 30px;
-        color: antiquewhite;
+        color: rgb(241, 235, 227);
     }
 }
 
@@ -129,7 +129,7 @@ form label, form legend{
         font-size: 11px;
         color: #d0d2d6;
         width: 80%;
-        background: linear-gradient(to top, rgba(46, 45, 45, 0.5), rgb(54, 54, 54));
+        background: linear-gradient(to top, rgba(36, 36, 36, 0.2), rgb(32, 32, 32));
     } 
     @media(min-width: 320px) and (max-width: 414px){
         display: block;
@@ -138,7 +138,7 @@ form label, form legend{
         font-size: 11px;
         color: #d0d2d6;
         width: 80%;
-        background: linear-gradient(to top, rgba(46, 45, 45, 0.5), rgb(54, 54, 54));
+        background: linear-gradient(to top, rgba(36, 36, 36, 0.2), rgb(32, 32, 32));
     }
     @media(min-width: 415px) and (max-width: 540px){
         display: block;
@@ -147,7 +147,7 @@ form label, form legend{
         font-size: 13px;
         color: #d0d2d6;
         width: 80%;
-        background: linear-gradient(to top, rgba(46, 45, 45, 0.5), rgb(54, 54, 54));
+        background: linear-gradient(to top, rgba(36, 36, 36, 0.2), rgb(32, 32, 32));
     }
     @media(min-width: 541px) and (max-width: 912px){
         display: block;
@@ -156,7 +156,7 @@ form label, form legend{
         font-size: 13px;
         color: #d0d2d6;
         width: 80%;
-        background: linear-gradient(to top, rgba(46, 45, 45, 0.5), rgb(54, 54, 54));
+        background: linear-gradient(to top, rgba(36, 36, 36, 0.2), rgb(32, 32, 32));
     }
     
     @media(min-width: 913px) and (max-width: 1204px){
@@ -166,7 +166,7 @@ form label, form legend{
         width: 70%;
         font-size: 11px;
         color: #d0d2d6;
-        background: linear-gradient(to top, rgba(46, 45, 45, 0.5), rgb(54, 54, 54));
+        background: linear-gradient(to top, rgba(36, 36, 36, 0.2), rgb(32, 32, 32));
     }
     @media(min-width: 1205px){
         display: block;
@@ -175,7 +175,7 @@ form label, form legend{
         width: 70%;
         font-size: 13px;
         color: #d0d2d6;
-        background: linear-gradient(to top, rgba(46, 45, 45, 0.5), rgb(54, 54, 54));
+        background: linear-gradient(to top, rgba(36, 36, 36, 0.2), rgb(32, 32, 32));
     }
 }
 
@@ -186,7 +186,7 @@ form label, form legend{
         padding: 15px 0;
         font-size: 18px;
         font-weight: bold;
-        color:rgb(14, 14, 13);
+        color:rgb(233, 233, 218);
         background: rgba(58, 119, 114, 0.884);
         border:none;
         border-radius: 5px;
@@ -199,7 +199,7 @@ form label, form legend{
         padding: 15px 0;
         font-size: 18px;
         font-weight: bold;
-        color:rgb(14, 14, 13);
+        color:rgb(233, 233, 218);
         background: rgba(58, 119, 114, 0.884);
         border:none;
         border-radius: 5px;
@@ -212,7 +212,7 @@ form label, form legend{
         padding: 15px 0;
         font-size: 18px;
         font-weight: bold;
-        color:rgb(14, 14, 13);
+        color:rgb(233, 233, 218);
         background: rgba(58, 119, 114, 0.884);
         border:none;
         border-radius: 5px;
@@ -226,7 +226,7 @@ form label, form legend{
         padding: 15px 0;
         font-size: 12px;
         font-weight: bold;
-        color:rgb(14, 14, 13);
+        color:rgb(233, 233, 218);
         background: rgba(58, 119, 114, 0.884);
         border:none;
         border-radius: 5px;
@@ -239,7 +239,7 @@ form label, form legend{
         padding: 15px 0;
         font-size: 12px;
         font-weight: bold;
-        color:rgb(14, 14, 13);
+        color:rgb(233, 233, 218);
         background: rgba(58, 119, 114, 0.884);
         border:none;
         border-radius: 5px;
@@ -255,7 +255,7 @@ form label, form legend{
         padding: 15px 0;
         font-size: 18px;
         font-weight: bold;
-        color:rgb(14, 14, 13);
+        color:rgb(233, 233, 218);
         background: rgba(58, 119, 114, 0.884);
         border:none;
         border-radius: 5px;
@@ -268,7 +268,7 @@ form label, form legend{
         padding: 15px 0;
         font-size: 18px;
         font-weight: bold;
-        color:rgb(14, 14, 13);
+        color:rgb(233, 233, 218);
         background: rgba(58, 119, 114, 0.884);
         border:none;
         border-radius: 5px;
@@ -281,7 +281,7 @@ form label, form legend{
         padding: 15px 0;
         font-size: 18px;
         font-weight: bold;
-        color:rgb(14, 14, 13);
+        color:rgb(233, 233, 218);
         background: rgba(58, 119, 114, 0.884);
         border:none;
         border-radius: 5px;
@@ -295,7 +295,7 @@ form label, form legend{
         padding: 15px 0;
         font-size: 12px;
         font-weight: bold;
-        color:rgb(14, 14, 13);
+        color:rgb(233, 233, 218);
         background: rgba(58, 119, 114, 0.884);
         border:none;
         border-radius: 5px;
@@ -308,7 +308,7 @@ form label, form legend{
         padding: 15px 0;
         font-size: 18px;
         font-weight: bold;
-        //color:rgb(14, 14, 13);
+        color:rgb(233, 233, 218);
         background: rgba(58, 119, 114, 0.884);
         border:none;
         border-radius: 5px;
