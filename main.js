@@ -396,7 +396,7 @@ document.addEventListener('DOMContentLoaded',function esculturasGaleria(){
     let containeresculturas = document.querySelectorAll('.imagenescultura img')
     const img_slideshow = document.querySelector('.slideshow img')
 
-    contenedor.addEventListener('click', function esculturasGaleria(event){
+    contenedor.addEventListener('click', function esculturasGaleria(){
         let atras = contenedor.querySelector('.atras'),
             adelante = contenedor.querySelector('.adelante'),
             img = contenedor.querySelector('img'),
@@ -467,10 +467,10 @@ document.addEventListener('DOMContentLoaded',function trofeosGaleria(){
         {img:'imagenes/Galeria/trofeos/pasion por el futbol/pas9.jpg'},
 
         {img:'imagenes/Galeria/trofeos/mapfre/mapfre2.jpg'},
-        {img:'imagenes/Galeria/trofeos/mapfre/mapfre1.jpg'},
         {img:'imagenes/Galeria/trofeos/mapfre/mapfre3.jpg'},
         {img:'imagenes/Galeria/trofeos/mapfre/mapfre4.jpg'},
         {img:'imagenes/Galeria/trofeos/mapfre/mapfre5.jpg'},
+        {img:'imagenes/Galeria/trofeos/mapfre/mapfre1.jpg'},
 
         {img:'imagenes/Galeria/trofeos/encargo deportivo/enca1.jpg'},
 
@@ -486,18 +486,17 @@ document.addEventListener('DOMContentLoaded',function trofeosGaleria(){
         {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso3.jpg'},
         {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso5.jpg'},
         {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso6.jpg'},
-        {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso7.jpg'},
-        {img:'imagenes/Galeria/trofeos/personalidades mundo agua/perso8.jpg'},
+
 
         {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro1.jpg'},
+        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro8.jpg'},
         {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro2.jpg'},
         {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro3.jpg'},
         {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro4.jpg'},
         {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro5.jpg'},
         {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro6.jpg'},
         {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro7.jpg'},
-        {img: 'imagenes/Galeria/esculturas/viveros ollo redondo/vivtro8.jpg'},
-
+        
         {img: 'imagenes/Galeria/esculturas/Union/1uni.jpg'},
         {img: 'imagenes/Galeria/esculturas/Union/2uni.jpg'},
         {img: 'imagenes/Galeria/esculturas/Union/3uni.jpg'},
@@ -594,7 +593,7 @@ document.addEventListener('DOMContentLoaded',function grabadosGaleria(){
     let containergrabados = document.querySelectorAll('.imagengrabados img')
     const img_slideshowgrabados = document.querySelector('.slideshowg img')
 
-    contenedorgrabados.addEventListener('click', function grabadosGaleria(event){
+    contenedorgrabados.addEventListener('click', function grabadosGaleria(){
         let atras = contenedorgrabados.querySelector('.atrasg'),
             adelante = contenedorgrabados.querySelector('.adelanteg'),
             img = contenedorgrabados.querySelector('img'),
@@ -646,7 +645,6 @@ document.addEventListener('DOMContentLoaded',function relievesGaleria(){
         {img:'imagenes/Galeria/grabados/marta/marta.jpg'},
 
         {img:'imagenes/Galeria/grabados/chapa alumino acada/ch1.jpg'},
-
         {img:'imagenes/Galeria/grabados/sin titulo2/sinti2.jpg'}
 
     ]
@@ -697,5 +695,6 @@ document.addEventListener('DOMContentLoaded',function relievesGaleria(){
     })
 
 })
+
 
 

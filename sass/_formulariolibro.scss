@@ -1,61 +1,85 @@
 
 form{
     @media(max-width: 319px){
-        margin: 40px 0 0 30px;
         width: 80%;
+        margin: auto;
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        padding: 20px;
     } 
     @media(min-width: 320px) and (max-width: 414px){
-        margin: 40px 0 0 20px;
-        //border: 1px solid red;
         width: 85%;
+        margin: auto;
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        padding: 20px;
     }
     @media(min-width: 415px) and (max-width: 650px){
-        margin: 40px 0 0 10px;
-        //border: 1px solid red;
         width: 70%;
+        margin: auto;
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        padding: 20px;
     }
     @media(min-width: 651px) and (max-width: 912px){
-        margin: 40px 0 0 10px;
-        //border: 1px solid red;
         width: 80%;
+        margin: auto;
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        padding: 20px;
     }
     
     @media(min-width: 913px) and (max-width: 1204px){
-        
-        margin: 30px 0 10px 200px;
-        width: 50%;
+        width: 80%;
+        margin: auto;
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        padding: 20px;
     }
     @media(min-width: 1205px){
-        margin: 30px 0 10px 200px;
-        width: 50%;
-   
+        width: 80%;
+        margin: auto;
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        padding: 20px;
     }
     
 }
 
+
+
+
 .formularioLibro{
     @media(max-width: 319px){
-        margin: 40px 0 0 30px;
         width: 80%;
+        margin: auto;
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        padding: 20px;
     } 
     @media(min-width: 320px) and (max-width: 414px){
-        margin: 40px 0 0 30px;
-        //border: 1px solid red;
         width: 85%;
+        margin: auto;
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        padding: 20px;
     }
-    @media(min-width: 415px) and (max-width: 912px){
-        margin: 40px 0 0 30px;
+    @media(min-width: 415px) and (max-width: 650px){
         width: 70%;
+        margin: auto;
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        padding: 20px;
+    }
+    @media(min-width: 651px) and (max-width: 912px){
+        width: 60%;
+        margin: auto;
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        padding: 20px;
     }
     
     @media(min-width: 913px) and (max-width: 1204px){
-        
-        margin: 30px 0 10px 30px;
         width: 50%;
+        margin: auto;
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        padding: 20px;
     }
     @media(min-width: 1205px){
-        margin: 30px 0 10px 30px;
         width: 50%;
+        margin: auto;
+        background: linear-gradient(to top, rgba(29, 30, 32, 0.6), rgb(20, 20, 20));
+        padding: 20px;
     }
     
 }
@@ -145,7 +169,7 @@ form label, form legend{
         padding: 2px;
         width: 60%;
         font-size: 13px;
-        background: linear-gradient(to top, rgba(104, 102, 102, 0.8), rgb(209, 199, 199));
+        background: linear-gradient(to top, rgba(110, 106, 106, 0.5), rgb(209, 199, 199));
     }
 }
 
@@ -210,12 +234,12 @@ form label, form legend{
         font-size: 12px;
         font-weight: bold;
         color:rgb(14, 14, 13);
-        background: rgba(116, 116, 107, 0.884);
+        background: rgba(133, 133, 127, 0.884);
         border:none;
         border-radius: 5px;
         transition: 1s all;
         cursor:pointer;
-        margin: 10px 0 50px 85px;
+        margin: 10px 10px 20px 65px;
     }
 }
 
@@ -338,24 +362,5 @@ form label, form legend{
 }
 
 
-.contacto{
-    
-    @media(max-width: 319px){
-        margin: auto;
-    } 
-    @media(min-width: 320px) and (max-width: 540px){
-        margin: auto;
-    }
-    @media(min-width: 541px) and (max-width: 912px){
-        margin: 150px 0 40px 10px;
-        width: 100%;
 
-    }
-    
-    @media(min-width: 913px) and (max-width: 1204px){
-        width: 50%;
-    }
-    @media(min-width: 1205px){
-        width: 50%;
-    }
-}
+

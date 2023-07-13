@@ -82,12 +82,11 @@
         </figure>
         <div class="contenido-card">
           <h3>Carlos Fierro</h3>
-          <p>Correo: @carlosfierroarte.com</p>
-          <a href="#">correo</a>
+          <p>Correo: escultura@carlosfierroarte.com</p>
         </div>
       </div>
     </div>
-  </div> 
+  </div>
   <div class="container__contratarModal">
     <div class="container-card">
       <div class="card">
@@ -96,26 +95,27 @@
         </figure>
         <div class="contenido-card">
           <h3>Carlos Fierro</h3>
-          <p>Email: @carlosfierroarte.com</p>
-          <a href="#">Email</a>
+          <p>Correo: escultura@carlosfierroarte.com</p>
+          
         </div>
       </div>
     </div>
-    <form class="contacto">
-      <label for="nombreapellido">Name</label>
-      <input type="text" id="nombreapellido" class="input-padron" required>
-  
-      <label for="correoelectronico">Email</label>
-      <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
-  
-      <label for="telefono">Phone</label>
-      <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
-  
-      <label  for="mensaje">Message</label>
-      <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>             
-                  
-      <input type="submit" value="Send" class="enviar">
-    </form>  
+    <div class="formcontent">
+      <form   action="envia.php" method="post"   >
+        <label for="nombreapellido">Name</label>
+        <input name="nombreapellido" type="text" id="nombreapellido" class="input-padron" required>
+    
+        <label for="correoelectronico">Email</label>
+        <input name="correoelectronico" type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+    
+        <label  for="mensaje">Message</label>
+        <textarea name="mensaje" cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>             
+                    
+        <input type="submit" value="Share" class="enviar" >
+      </form> 
+    </div>
+     
+    
   </div>
 
   
